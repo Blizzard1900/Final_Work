@@ -1,0 +1,689 @@
+[0.000000] (-) TimerEvent: {}
+[0.000440] (wp_map_tools) JobQueued: {'identifier': 'wp_map_tools', 'dependencies': OrderedDict()}
+[0.000467] (wpr_simulation2) JobQueued: {'identifier': 'wpr_simulation2', 'dependencies': OrderedDict()}
+[0.000782] (wp_map_tools) JobStarted: {'identifier': 'wp_map_tools'}
+[0.003979] (wpr_simulation2) JobStarted: {'identifier': 'wpr_simulation2'}
+[0.006117] (wp_map_tools) JobProgress: {'identifier': 'wp_map_tools', 'progress': 'cmake'}
+[0.006935] (wp_map_tools) JobProgress: {'identifier': 'wp_map_tools', 'progress': 'build'}
+[0.006949] (wp_map_tools) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/starfire/ros2_ws/build/wp_map_tools', '--', '-j16', '-l16'], 'cwd': '/home/starfire/ros2_ws/build/wp_map_tools', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'starfire'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/starfire'), ('OLDPWD', '/home/starfire'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1698'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'starfire'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'starfire'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/starfire-Legion-Y7000P-IRH8:@/tmp/.ICE-unix/1392,unix/starfire-Legion-Y7000P-IRH8:/tmp/.ICE-unix/1392'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/afa9a6d4_ca89_44e8_b29f_2f5e1a879c21'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QFBDI3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/starfire/ros2_ws/build/wp_map_tools'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.008749] (wpr_simulation2) JobProgress: {'identifier': 'wpr_simulation2', 'progress': 'cmake'}
+[0.009411] (wpr_simulation2) JobProgress: {'identifier': 'wpr_simulation2', 'progress': 'build'}
+[0.009423] (wpr_simulation2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/starfire/ros2_ws/build/wpr_simulation2', '--', '-j16', '-l16'], 'cwd': '/home/starfire/ros2_ws/build/wpr_simulation2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'starfire'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/starfire'), ('OLDPWD', '/home/starfire'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1698'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'starfire'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'starfire'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/starfire-Legion-Y7000P-IRH8:@/tmp/.ICE-unix/1392,unix/starfire-Legion-Y7000P-IRH8:/tmp/.ICE-unix/1392'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/afa9a6d4_ca89_44e8_b29f_2f5e1a879c21'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QFBDI3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/starfire/ros2_ws/build/wpr_simulation2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.042815] (wpr_simulation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wpb_home_mani_sim\x1b[0m\n'}
+[0.043062] (wpr_simulation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 5_lidar_behavior\x1b[0m\n'}
+[0.043139] (wpr_simulation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 3_subscriber_node\x1b[0m\n'}
+[0.043950] (wpr_simulation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 6_imu_behavior\x1b[0m\n'}
+[0.044283] (wpr_simulation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 6_imu_data\x1b[0m\n'}
+[0.046157] (wpr_simulation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 5_lidar_data\x1b[0m\n'}
+[0.047391] (wpr_simulation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 8_waypoint_navigation\x1b[0m\n'}
+[0.047515] (wpr_simulation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 9_cv_image\x1b[0m\n'}
+[0.048007] (wp_map_tools) StdoutLine: {'line': b'[  1%] Built target wp_map_tools__cpp\n'}
+[0.050080] (wp_map_tools) StdoutLine: {'line': b'[  8%] Built target wp_map_tools__rosidl_generator_c\n'}
+[0.053232] (wpr_simulation2) StdoutLine: {'line': b'[  5%] Built target wpb_home_mani_sim\n'}
+[0.053414] (wpr_simulation2) StdoutLine: {'line': b'[  5%] Built target keyboard_vel_cmd\n'}
+[0.054112] (wpr_simulation2) StdoutLine: {'line': b'[  6%] Built target wpr_simulation2__cpp\n'}
+[0.054262] (wpr_simulation2) StdoutLine: {'line': b'[  8%] Built target 3_publisher_node\n'}
+[0.054352] (wpr_simulation2) StdoutLine: {'line': b'[ 12%] Built target wpr_simulation2__rosidl_generator_c\n'}
+[0.056178] (wpr_simulation2) StdoutLine: {'line': b'[ 17%] Built target ball_random_move\n'}
+[0.056369] (wpr_simulation2) StdoutLine: {'line': b'[ 16%] Built target 3_my_node\n'}
+[0.057944] (wpr_simulation2) StdoutLine: {'line': b'[ 20%] Built target 3_subscriber_node\n'}
+[0.058122] (wp_map_tools) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_copy_wp_map_tools\n'}
+[0.058250] (wpr_simulation2) StdoutLine: {'line': b'[ 22%] Built target 4_velocity_command\n'}
+[0.058406] (wpr_simulation2) StdoutLine: {'line': b'[ 22%] Built target ament_cmake_python_copy_wpr_simulation2\n'}
+[0.058652] (wpr_simulation2) StdoutLine: {'line': b'[ 25%] Built target 5_lidar_behavior\n'}
+[0.058927] (wpr_simulation2) StdoutLine: {'line': b'[ 27%] Built target 6_imu_data\n'}
+[0.059019] (wpr_simulation2) StdoutLine: {'line': b'[ 30%] Built target 5_lidar_data\n'}
+[0.061004] (wpr_simulation2) StdoutLine: {'line': b'[ 32%] Built target 6_imu_behavior\n'}
+[0.061162] (wpr_simulation2) StdoutLine: {'line': b'[ 35%] Built target 8_waypoint_navigation\n'}
+[0.061228] (wpr_simulation2) StdoutLine: {'line': b'[ 37%] Built target 9_cv_image\n'}
+[0.062055] (wpr_simulation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 9_cv_hsv\x1b[0m\n'}
+[0.066539] (wpr_simulation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 9_cv_face_detect\x1b[0m\n'}
+[0.066706] (wpr_simulation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 9_cv_follow\x1b[0m\n'}
+[0.067265] (wpr_simulation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 11_mani_ctrl\x1b[0m\n'}
+[0.067356] (wpr_simulation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 10_pc_data\x1b[0m\n'}
+[0.070175] (wpr_simulation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 10_pc_objects\x1b[0m\n'}
+[0.070337] (wpr_simulation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 12_fetch\x1b[0m\n'}
+[0.070400] (wpr_simulation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.070601] (wpr_simulation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.070736] (wp_map_tools) StdoutLine: {'line': b'[ 16%] Built target wp_map_tools__rosidl_typesupport_fastrtps_cpp\n'}
+[0.070880] (wpr_simulation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo_nav2_client\x1b[0m\n'}
+[0.071598] (wp_map_tools) StdoutLine: {'line': b'[ 23%] Built target wp_map_tools__rosidl_typesupport_cpp\n'}
+[0.071768] (wpr_simulation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.073224] (wpr_simulation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_c\x1b[0m\n'}
+[0.073388] (wpr_simulation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.073471] (wpr_simulation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.076476] (wp_map_tools) StdoutLine: {'line': b'[ 31%] Built target wp_map_tools__rosidl_typesupport_fastrtps_c\n'}
+[0.077412] (wp_map_tools) StdoutLine: {'line': b'[ 38%] Built target wp_map_tools__rosidl_typesupport_c\n'}
+[0.079898] (wp_map_tools) StdoutLine: {'line': b'[ 46%] Built target wp_map_tools__rosidl_typesupport_introspection_cpp\n'}
+[0.080510] (wpr_simulation2) StdoutLine: {'line': b'[ 40%] Built target 9_cv_hsv\n'}
+[0.081372] (wp_map_tools) StdoutLine: {'line': b'[ 53%] Built target wp_map_tools__rosidl_typesupport_introspection_c\n'}
+[0.082843] (wpr_simulation2) StdoutLine: {'line': b'[ 45%] Built target 11_mani_ctrl\n'}
+[0.082984] (wpr_simulation2) StdoutLine: {'line': b'[ 45%] Built target 9_cv_follow\n'}
+[0.083061] (wpr_simulation2) StdoutLine: {'line': b'[ 48%] Built target 12_fetch\n'}
+[0.086229] (wpr_simulation2) StdoutLine: {'line': b'[ 50%] Built target 9_cv_face_detect\n'}
+[0.086446] (wp_map_tools) StdoutLine: {'line': b'[ 55%] \x1b[34m\x1b[1mAutomatic MOC for target wp_saver\x1b[0m\n'}
+[0.086769] (wpr_simulation2) StdoutLine: {'line': b'[ 54%] Built target wpr_simulation2__rosidl_typesupport_cpp\n'}
+[0.087079] (wpr_simulation2) StdoutLine: {'line': b'[ 58%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c\n'}
+[0.087519] (wp_map_tools) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mAutomatic MOC for target demo_navi_waypoint\x1b[0m\n'}
+[0.087635] (wpr_simulation2) StdoutLine: {'line': b'[ 60%] Built target demo_nav2_client\n'}
+[0.088503] (wpr_simulation2) StdoutLine: {'line': b'[ 69%] Built target 10_pc_data\n'}
+[0.088637] (wpr_simulation2) StdoutLine: {'line': b'[ 70%] Built target wpr_simulation2__rosidl_typesupport_introspection_c\n'}
+[0.088748] (wpr_simulation2) StdoutLine: {'line': b'[ 70%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_cpp\n'}
+[0.088823] (wpr_simulation2) StdoutLine: {'line': b'[ 74%] Built target wpr_simulation2__rosidl_typesupport_introspection_cpp\n'}
+[0.088937] (wp_map_tools) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mAutomatic MOC for target wp_map_plugins\x1b[0m\n'}
+[0.090254] (wp_map_tools) StdoutLine: {'line': b'[ 61%] \x1b[34m\x1b[1mAutomatic MOC for target wp_edit_node\x1b[0m\n'}
+[0.090413] (wp_map_tools) StdoutLine: {'line': b'[ 61%] \x1b[34m\x1b[1mAutomatic MOC for target wp_navi_server\x1b[0m\n'}
+[0.090486] (wpr_simulation2) StdoutLine: {'line': b'[ 78%] Built target wpr_simulation2__rosidl_typesupport_c\n'}
+[0.094242] (wpr_simulation2) StdoutLine: {'line': b'[ 81%] Built target 10_pc_objects\n'}
+[0.094759] (wpr_simulation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target objects_publisher\x1b[0m\n'}
+[0.095900] (wpr_simulation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 11_grab_object\x1b[0m\n'}
+[0.096658] (wpr_simulation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target grab_object_sim\x1b[0m\n'}
+[0.097016] (wp_map_tools) StdoutLine: {'line': b'[ 61%] Built target wp_map_tools\n'}
+[0.099891] (-) TimerEvent: {}
+[0.101836] (wp_map_tools) StdoutLine: {'line': b'[ 61%] Built target wp_navi_server_autogen\n'}
+[0.102360] (wpr_simulation2) StdoutLine: {'line': b'[ 81%] Built target wpr_simulation2\n'}
+[0.103369] (wp_map_tools) StdoutLine: {'line': b'[ 61%] Built target wp_saver_autogen\n'}
+[0.104529] (wp_map_tools) StdoutLine: {'line': b'[ 61%] Built target wp_edit_node_autogen\n'}
+[0.105028] (wp_map_tools) StdoutLine: {'line': b'[ 61%] Built target demo_navi_waypoint_autogen\n'}
+[0.108625] (wpr_simulation2) StdoutLine: {'line': b'[ 83%] Built target grab_object_sim\n'}
+[0.108889] (wp_map_tools) StdoutLine: {'line': b'[ 62%] Built target wp_map_tools__py\n'}
+[0.109033] (wpr_simulation2) StdoutLine: {'line': b'[ 86%] Built target 11_grab_object\n'}
+[0.109259] (wpr_simulation2) StdoutLine: {'line': b'[ 88%] Built target objects_publisher\n'}
+[0.109365] (wp_map_tools) StdoutLine: {'line': b'[ 62%] Built target wp_map_plugins_autogen\n'}
+[0.111040] (wp_map_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wp_navi_server\x1b[0m\n'}
+[0.111821] (wp_map_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wp_edit_node\x1b[0m\n'}
+[0.114595] (wpr_simulation2) StdoutLine: {'line': b'[ 89%] Built target wpr_simulation2__py\n'}
+[0.120002] (wp_map_tools) StdoutLine: {'line': b'[ 67%] Built target demo_navi_waypoint\n'}
+[0.120202] (wpr_simulation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_generator_py\x1b[0m\n'}
+[0.120822] (wp_map_tools) StdoutLine: {'line': b'[ 71%] Built target wp_edit_node\n'}
+[0.124053] (wp_map_tools) StdoutLine: {'line': b'[ 76%] Built target wp_saver\n'}
+[0.125207] (wp_map_tools) StdoutLine: {'line': b'[ 80%] Built target wp_map_plugins\n'}
+[0.125774] (wpr_simulation2) StdoutLine: {'line': b'[ 92%] Built target wpr_simulation2__rosidl_generator_py\n'}
+[0.125884] (wp_map_tools) StdoutLine: {'line': b'[ 86%] Built target wp_map_tools__rosidl_generator_py\n'}
+[0.126026] (wp_map_tools) StdoutLine: {'line': b'[ 91%] Built target wp_navi_server\n'}
+[0.131894] (wpr_simulation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.132074] (wpr_simulation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.134112] (wpr_simulation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.138415] (wpr_simulation2) StdoutLine: {'line': b'[ 97%] Built target wpr_simulation2__rosidl_typesupport_introspection_c__pyext\n'}
+[0.138639] (wpr_simulation2) StdoutLine: {'line': b'[ 97%] Built target wpr_simulation2__rosidl_typesupport_c__pyext\n'}
+[0.138716] (wp_map_tools) StdoutLine: {'line': b'[ 94%] Built target wp_map_tools__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.139814] (wp_map_tools) StdoutLine: {'line': b'[ 97%] Built target wp_map_tools__rosidl_typesupport_introspection_c__pyext\n'}
+[0.142961] (wpr_simulation2) StdoutLine: {'line': b'[100%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.143102] (wp_map_tools) StdoutLine: {'line': b'[100%] Built target wp_map_tools__rosidl_typesupport_c__pyext\n'}
+[0.200026] (-) TimerEvent: {}
+[0.221339] (wpr_simulation2) StdoutLine: {'line': b'running egg_info\n'}
+[0.221540] (wpr_simulation2) StdoutLine: {'line': b'writing wpr_simulation2.egg-info/PKG-INFO\n'}
+[0.221609] (wpr_simulation2) StdoutLine: {'line': b'writing dependency_links to wpr_simulation2.egg-info/dependency_links.txt\n'}
+[0.221688] (wpr_simulation2) StdoutLine: {'line': b'writing top-level names to wpr_simulation2.egg-info/top_level.txt\n'}
+[0.222741] (wpr_simulation2) StdoutLine: {'line': b"reading manifest file 'wpr_simulation2.egg-info/SOURCES.txt'\n"}
+[0.222982] (wpr_simulation2) StdoutLine: {'line': b"writing manifest file 'wpr_simulation2.egg-info/SOURCES.txt'\n"}
+[0.224594] (wp_map_tools) StdoutLine: {'line': b'running egg_info\n'}
+[0.224828] (wp_map_tools) StdoutLine: {'line': b'writing wp_map_tools.egg-info/PKG-INFO\n'}
+[0.224992] (wp_map_tools) StdoutLine: {'line': b'writing dependency_links to wp_map_tools.egg-info/dependency_links.txt\n'}
+[0.225081] (wp_map_tools) StdoutLine: {'line': b'writing top-level names to wp_map_tools.egg-info/top_level.txt\n'}
+[0.226336] (wp_map_tools) StdoutLine: {'line': b"reading manifest file 'wp_map_tools.egg-info/SOURCES.txt'\n"}
+[0.226604] (wp_map_tools) StdoutLine: {'line': b"writing manifest file 'wp_map_tools.egg-info/SOURCES.txt'\n"}
+[0.242155] (wpr_simulation2) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_wpr_simulation2_egg\n'}
+[0.245235] (wp_map_tools) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_wp_map_tools_egg\n'}
+[0.250503] (wpr_simulation2) CommandEnded: {'returncode': 0}
+[0.251310] (wpr_simulation2) JobProgress: {'identifier': 'wpr_simulation2', 'progress': 'install'}
+[0.257083] (wpr_simulation2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/starfire/ros2_ws/build/wpr_simulation2'], 'cwd': '/home/starfire/ros2_ws/build/wpr_simulation2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'starfire'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/starfire'), ('OLDPWD', '/home/starfire'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1698'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'starfire'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'starfire'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/starfire-Legion-Y7000P-IRH8:@/tmp/.ICE-unix/1392,unix/starfire-Legion-Y7000P-IRH8:/tmp/.ICE-unix/1392'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/afa9a6d4_ca89_44e8_b29f_2f5e1a879c21'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QFBDI3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/starfire/ros2_ws/build/wpr_simulation2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.258177] (wp_map_tools) CommandEnded: {'returncode': 0}
+[0.258701] (wp_map_tools) JobProgress: {'identifier': 'wp_map_tools', 'progress': 'install'}
+[0.258953] (wp_map_tools) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/starfire/ros2_ws/build/wp_map_tools'], 'cwd': '/home/starfire/ros2_ws/build/wp_map_tools', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'starfire'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/starfire'), ('OLDPWD', '/home/starfire'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1698'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'starfire'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'starfire'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/starfire-Legion-Y7000P-IRH8:@/tmp/.ICE-unix/1392,unix/starfire-Legion-Y7000P-IRH8:/tmp/.ICE-unix/1392'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/afa9a6d4_ca89_44e8_b29f_2f5e1a879c21'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QFBDI3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/starfire/ros2_ws/build/wp_map_tools'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.263689] (wpr_simulation2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.263780] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/ament_index/resource_index/rosidl_interfaces/wpr_simulation2\n'}
+[0.263813] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2\n'}
+[0.263862] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg\n'}
+[0.263921] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.263952] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail\n'}
+[0.263978] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__functions.h\n'}
+[0.264003] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__struct.h\n'}
+[0.264052] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__functions.c\n'}
+[0.264077] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.h\n'}
+[0.264102] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/object.h\n'}
+[0.264141] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/library_path.sh\n'}
+[0.264187] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/library_path.dsv\n'}
+[0.264211] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_c.so\n'}
+[0.264297] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_c.so" to ""\n'}
+[0.264338] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2\n'}
+[0.264390] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg\n'}
+[0.264415] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail\n'}
+[0.264441] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_fastrtps_c.h\n'}
+[0.264466] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.264504] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_c.so\n'}
+[0.264554] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[0.264606] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2\n'}
+[0.264629] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg\n'}
+[0.264665] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/object.hpp\n'}
+[0.264689] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.264729] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail\n'}
+[0.264780] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__traits.hpp\n'}
+[0.264806] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.hpp\n'}
+[0.264862] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__struct.hpp\n'}
+[0.264887] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__builder.hpp\n'}
+[0.264911] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2\n'}
+[0.264952] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg\n'}
+[0.264975] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail\n'}
+[0.264998] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/dds_fastrtps\n'}
+[0.265022] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.265047] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.265093] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.265120] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[0.265158] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2\n'}
+[0.265209] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg\n'}
+[0.265234] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.265259] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail\n'}
+[0.265283] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.c\n'}
+[0.265330] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_introspection_c.h\n'}
+[0.265355] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_c.so\n'}
+[0.265401] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_c.so" to ""\n'}
+[0.265428] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_c.so\n'}
+[0.265495] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_c.so" to ""\n'}
+[0.265535] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2\n'}
+[0.265577] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg\n'}
+[0.265604] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail\n'}
+[0.265652] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.265676] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.cpp\n'}
+[0.265698] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_cpp.so\n'}
+[0.265763] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[0.265805] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_cpp.so\n'}
+[0.265869] (wp_map_tools) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.265910] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/ament_index/resource_index/rosidl_interfaces/wp_map_tools\n'}
+[0.265936] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_cpp.so" to ""\n'}
+[0.265983] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/pythonpath.sh\n'}
+[0.266009] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/pythonpath.dsv\n'}
+[0.266054] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info\n'}
+[0.266080] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools\n'}
+[0.266126] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.266149] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.266182] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv\n'}
+[0.266206] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.266229] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.266279] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2\n'}
+[0.266303] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.266337] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_c.c\n'}
+[0.266360] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/libwpr_simulation2__rosidl_generator_py.so\n'}
+[0.266412] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.266438] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.266461] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/save_waypoints.h\n'}
+[0.266532] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.266558] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/get_waypoint_by_name.h\n'}
+[0.266584] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail\n'}
+[0.266607] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__functions.c\n'}
+[0.266632] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__struct.h\n'}
+[0.266655] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__type_support.h\n'}
+[0.266708] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.266734] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/__init__.py\n'}
+[0.266758] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg\n'}
+[0.266793] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__functions.h\n'}
+[0.266815] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__struct.h\n'}
+[0.266843] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/_object.py\n'}
+[0.266869] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/_object_s.c\n'}
+[0.266891] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/__init__.py\n'}
+[0.266916] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__functions.c\n'}
+[0.266941] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__functions.h\n'}
+[0.266996] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__type_support.h\n'}
+[0.267049] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg\n'}
+[0.267076] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.267099] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/waypoint.h\n'}
+[0.267145] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail\n'}
+[0.267171] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__struct.h\n'}
+[0.267214] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__functions.h\n'}
+[0.267238] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__functions.c\n'}
+[0.267262] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__type_support.h\n'}
+[0.267309] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/environment/library_path.sh\n'}
+[0.267333] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/environment/library_path.dsv\n'}
+[0.267373] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_generator_c.so\n'}
+[0.267463] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_generator_c.so" to ""\n'}
+[0.267504] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools\n'}
+[0.267528] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv\n'}
+[0.267593] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail\n'}
+[0.267619] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__rosidl_typesupport_fastrtps_c.h\n'}
+[0.267644] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__rosidl_typesupport_fastrtps_c.h\n'}
+[0.267668] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg\n'}
+[0.267692] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail\n'}
+[0.267733] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__rosidl_typesupport_fastrtps_c.h\n'}
+[0.267776] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.267800] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_fastrtps_c.so\n'}
+[0.267892] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[0.268040] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools\n'}
+[0.268111] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv\n'}
+[0.268176] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/save_waypoints.hpp\n'}
+[0.268279] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail\n'}
+[0.268369] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__traits.hpp\n'}
+[0.268432] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__traits.hpp\n'}
+[0.268494] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__type_support.hpp\n'}
+[0.268555] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__struct.hpp\n'}
+[0.268615] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__builder.hpp\n'}
+[0.268676] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__type_support.hpp\n'}
+[0.268736] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__struct.hpp\n'}
+[0.268796] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__builder.hpp\n'}
+[0.268877] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/get_waypoint_by_name.hpp\n'}
+[0.268943] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg\n'}
+[0.269082] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/waypoint.hpp\n'}
+[0.269143] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.269203] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail\n'}
+[0.269263] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__struct.hpp\n'}
+[0.269324] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__traits.hpp\n'}
+[0.269386] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__builder.hpp\n'}
+[0.269446] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__type_support.hpp\n'}
+[0.269505] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools\n'}
+[0.269565] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv\n'}
+[0.269625] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail\n'}
+[0.269684] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.269743] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/dds_fastrtps\n'}
+[0.269817] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.269935] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg\n'}
+[0.270011] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail\n'}
+[0.270073] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/dds_fastrtps\n'}
+[0.270133] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.270193] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.270254] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.270314] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[0.270374] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools\n'}
+[0.270446] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv\n'}
+[0.270508] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail\n'}
+[0.270568] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__rosidl_typesupport_introspection_c.h\n'}
+[0.270629] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__rosidl_typesupport_introspection_c.h\n'}
+[0.270689] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__type_support.c\n'}
+[0.270749] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__type_support.c\n'}
+[0.270809] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg\n'}
+[0.270877] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.270939] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail\n'}
+[0.270998] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__rosidl_typesupport_introspection_c.h\n'}
+[0.271058] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__type_support.c\n'}
+[0.271117] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_introspection_c.so\n'}
+[0.271241] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_introspection_c.so" to ""\n'}
+[0.271302] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_c.so\n'}
+[0.271358] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_c.so" to ""\n'}
+[0.271414] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools\n'}
+[0.271470] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv\n'}
+[0.271526] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail\n'}
+[0.271582] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.271638] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.271694] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__type_support.cpp\n'}
+[0.271750] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__type_support.cpp\n'}
+[0.271806] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg\n'}
+[0.271871] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail\n'}
+[0.271929] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.271986] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__type_support.cpp\n'}
+[0.272043] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_introspection_cpp.so\n'}
+[0.272100] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[0.272157] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_cpp.so\n'}
+[0.272214] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_cpp.so" to ""\n'}
+[0.272274] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/environment/pythonpath.sh\n'}
+[0.272330] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/environment/pythonpath.dsv\n'}
+[0.272386] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools-1.0.0-py3.10.egg-info\n'}
+[0.272443] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.272498] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.272554] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.272610] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.272669] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools\n'}
+[0.272726] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/srv\n'}
+[0.272782] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/srv/_save_waypoints_s.c\n'}
+[0.272846] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/srv/_save_waypoints.py\n'}
+[0.272908] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/srv/_get_waypoint_by_name_s.c\n'}
+[0.272964] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/srv/_get_waypoint_by_name.py\n'}
+[0.273020] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/srv/__init__.py\n'}
+[0.273082] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/wp_map_tools_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.273138] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/wp_map_tools_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.273194] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/_wp_map_tools_s.ep.rosidl_typesupport_c.c\n'}
+[0.273249] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/_wp_map_tools_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.273305] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/wp_map_tools_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.273361] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/__init__.py\n'}
+[0.273417] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/_wp_map_tools_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.273473] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/libwp_map_tools__rosidl_generator_py.so\n'}
+[0.273529] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/msg\n'}
+[0.273585] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/msg/_waypoint_s.c\n'}
+[0.273641] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/msg/_waypoint.py\n'}
+[0.273697] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/msg/__init__.py\n'}
+[0.285431] (wpr_simulation2) StdoutLine: {'line': b"Listing '/home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2'...\n"}
+[0.285525] (wpr_simulation2) StdoutLine: {'line': b"Compiling '/home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/__init__.py'...\n"}
+[0.285587] (wpr_simulation2) StdoutLine: {'line': b"Listing '/home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg'...\n"}
+[0.285647] (wpr_simulation2) StdoutLine: {'line': b"Compiling '/home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/__init__.py'...\n"}
+[0.285704] (wpr_simulation2) StdoutLine: {'line': b"Compiling '/home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/_object.py'...\n"}
+[0.288021] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.288129] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[0.288190] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.288262] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[0.288342] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.288423] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[0.288505] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_py.so\n'}
+[0.288592] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_py.so" to ""\n'}
+[0.288655] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/msg/Object.idl\n'}
+[0.288753] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/msg/Object.msg\n'}
+[0.288817] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/config\n'}
+[0.288911] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/config/wpb_home_controller.yaml\n'}
+[0.288974] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/config/nav2_params.yaml\n'}
+[0.289034] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch\n'}
+[0.289094] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_face.launch.py\n'}
+[0.289154] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_persons.launch.py\n'}
+[0.289214] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_objects.launch.py\n'}
+[0.289274] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_simple.launch.py\n'}
+[0.289391] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/demo_mani_ctrl.launch.py\n'}
+[0.289451] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/robocup_home_mani.launch.py\n'}
+[0.289511] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb.launch.py\n'}
+[0.289612] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/world.launch.py\n'}
+[0.289673] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_lidar.launch.py\n'}
+[0.289733] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_balls.launch.py\n'}
+[0.289793] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/slam.launch.py\n'}
+[0.289896] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_scene_1.launch.py\n'}
+[0.289975] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_mani.launch.py\n'}
+[0.290035] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/map_tools.launch.py\n'}
+[0.290095] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_head_up.launch.py\n'}
+[0.290154] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/robocup_home.launch.py\n'}
+[0.290213] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_mani.launch.py\n'}
+[0.290275] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/navigation.launch.py\n'}
+[0.290334] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_table.launch.py\n'}
+[0.290394] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_objects.launch.py\n'}
+[0.290454] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch\n'}
+[0.290513] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/8_nav.launch.py\n'}
+[0.290573] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/12_home.launch.py\n'}
+[0.290633] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/8_waypoint_nav.launch.py\n'}
+[0.290694] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.yaml\n'}
+[0.290753] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.xml\n'}
+[0.290931] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/7_slam.launch.py\n'}
+[0.290992] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.py\n'}
+[0.291049] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds\n'}
+[0.291109] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/table.world\n'}
+[0.291166] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/wpb_pose.world\n'}
+[0.291223] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/simple.world\n'}
+[0.291279] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/robocup_home.world\n'}
+[0.291335] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/wpb_simple.world\n'}
+[0.291394] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/light.world\n'}
+[0.291455] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models\n'}
+[0.291515] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/man_1.model\n'}
+[0.291575] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_lidar.model\n'}
+[0.291635] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_head_up.model\n'}
+[0.291695] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/man_2.model\n'}
+[0.291754] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_mani.model\n'}
+[0.291842] (wp_map_tools) StdoutLine: {'line': b"Listing '/home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools'...\n"}
+[0.291908] (wp_map_tools) StdoutLine: {'line': b"Compiling '/home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/__init__.py'...\n"}
+[0.291965] (wp_map_tools) StdoutLine: {'line': b"Listing '/home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/msg'...\n"}
+[0.292026] (wp_map_tools) StdoutLine: {'line': b"Compiling '/home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/msg/__init__.py'...\n"}
+[0.292082] (wp_map_tools) StdoutLine: {'line': b"Compiling '/home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/msg/_waypoint.py'...\n"}
+[0.292139] (wp_map_tools) StdoutLine: {'line': b"Listing '/home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/srv'...\n"}
+[0.292195] (wp_map_tools) StdoutLine: {'line': b"Compiling '/home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/srv/__init__.py'...\n"}
+[0.292251] (wp_map_tools) StdoutLine: {'line': b"Compiling '/home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/srv/_get_waypoint_by_name.py'...\n"}
+[0.292307] (wp_map_tools) StdoutLine: {'line': b"Compiling '/home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/srv/_save_waypoints.py'...\n"}
+[0.292363] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bookshelft.model\n'}
+[0.292423] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bottles\n'}
+[0.292485] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bottles/green_bottle.model\n'}
+[0.292566] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bottles/red_bottle.model\n'}
+[0.292622] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpv3.model\n'}
+[0.292678] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/sofa.model\n'}
+[0.292734] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home.model\n'}
+[0.292789] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/chair.model\n'}
+[0.292853] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/cupboard.model\n'}
+[0.292914] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/tea_table.model\n'}
+[0.292970] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/table.model\n'}
+[0.293026] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/kai_standing.model\n'}
+[0.293083] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/woman.model\n'}
+[0.293143] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls\n'}
+[0.293258] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/blue_ball.model\n'}
+[0.293319] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/green_ball.model\n'}
+[0.293379] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/red_ball.model\n'}
+[0.293459] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/orange_ball.model\n'}
+[0.293519] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpr1.model\n'}
+[0.293578] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bed.model\n'}
+[0.293637] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes\n'}
+[0.293697] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa.dae\n'}
+[0.293756] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard.dae\n'}
+[0.293815] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/table\n'}
+[0.293955] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/table/Wood_Cherry_Original.jpg\n'}
+[0.294000] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/table.dae\n'}
+[0.294029] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/kai\n'}
+[0.294057] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/kai/kai_standing.dae\n'}
+[0.294083] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/kai/1931_LaFeiEr_D_512.png\n'}
+[0.294123] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1\n'}
+[0.294148] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/forearm.dae\n'}
+[0.294173] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/finger.dae\n'}
+[0.294198] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/fingertip.dae\n'}
+[0.294222] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/base.dae\n'}
+[0.294246] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/wp_map_tools_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.294299] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/palm.dae\n'}
+[0.294322] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/wp_map_tools_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[0.294348] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/wp_map_tools_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.294373] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/wp_map_tools_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[0.294398] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/torso.dae\n'}
+[0.294439] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/wp_map_tools_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.294464] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/wp_map_tools_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[0.294489] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_generator_py.so\n'}
+[0.294527] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_generator_py.so" to ""\n'}
+[0.294552] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/msg/Waypoint.idl\n'}
+[0.294576] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/SaveWaypoints.idl\n'}
+[0.294600] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/GetWaypointByName.idl\n'}
+[0.294624] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/msg/Waypoint.msg\n'}
+[0.294648] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/SaveWaypoints.srv\n'}
+[0.294671] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/SaveWaypoints_Request.msg\n'}
+[0.294697] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/SaveWaypoints_Response.msg\n'}
+[0.294739] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/GetWaypointByName.srv\n'}
+[0.294763] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/GetWaypointByName_Request.msg\n'}
+[0.294787] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/GetWaypointByName_Response.msg\n'}
+[0.294812] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/plugins_description.xml\n'}
+[0.294844] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/plugins_description.xml\n'}
+[0.294901] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_plugins.so\n'}
+[0.294927] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/\n'}
+[0.294951] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include//wp_map_tools\n'}
+[0.294975] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include//wp_map_tools/add_waypoint_tool.hpp\n'}
+[0.294998] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/launch\n'}
+[0.295031] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/launch/add_waypoint_sim.launch.py\n'}
+[0.295052] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/launch/navi_waypoint_home.launch.py\n'}
+[0.295073] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/launch/marker_navigation.launch.py\n'}
+[0.295093] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/launch/navi_waypoint_sim.launch.py\n'}
+[0.295113] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/launch/add_waypoint_home.launch.py\n'}
+[0.295134] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/meshes\n'}
+[0.295154] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/meshes/charger.dae\n'}
+[0.295175] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/meshes/waypoint.dae\n'}
+[0.295195] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/rviz\n'}
+[0.295216] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/rviz/edit.rviz\n'}
+[0.295237] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/rviz/navi.rviz\n'}
+[0.295257] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/msg\n'}
+[0.295279] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/msg/Waypoint.msg\n'}
+[0.295349] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv\n'}
+[0.295384] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/GetWaypointByIndex.srv\n'}
+[0.295404] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/upperarm.dae\n'}
+[0.295429] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/SaveWaypoints.srv\n'}
+[0.295451] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/GetChargerByName.srv\n'}
+[0.295485] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/GetNumOfWaypoints.srv\n'}
+[0.295507] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/GetWaypointByName.srv\n'}
+[0.295527] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/AddNewWaypoint.srv\n'}
+[0.295549] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/icons\n'}
+[0.295569] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/icons/classes\n'}
+[0.295590] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/icons/classes/AddCharger.png\n'}
+[0.295610] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/icons/classes/AddWaypointTool.png\n'}
+[0.295633] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/lib/wp_map_tools/wp_edit_node\n'}
+[0.295655] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bottle.stl\n'}
+[0.295675] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home\n'}
+[0.295695] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/forearm.dae\n'}
+[0.295715] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/wpb_home_std.dae\n'}
+[0.296786] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/lib/wp_map_tools/wp_edit_node" to ""\n'}
+[0.296820] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/lib/wp_map_tools/wp_saver\n'}
+[0.297132] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/lib/wp_map_tools/wp_saver" to ""\n'}
+[0.297171] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/lib/wp_map_tools/wp_navi_server\n'}
+[0.298066] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/wpb_home_mani.dae\n'}
+[0.298901] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/lib/wp_map_tools/wp_navi_server" to ""\n'}
+[0.298944] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/lib/wp_map_tools/demo_navi_waypoint\n'}
+[0.299413] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/lib/wp_map_tools/demo_navi_waypoint" to ""\n'}
+[0.299454] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/ament_index/resource_index/package_run_dependencies/wp_map_tools\n'}
+[0.299478] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/ament_index/resource_index/parent_prefix_path/wp_map_tools\n'}
+[0.299511] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/environment/ament_prefix_path.sh\n'}
+[0.299548] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/environment/ament_prefix_path.dsv\n'}
+[0.299588] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/environment/path.sh\n'}
+[0.299627] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/environment/path.dsv\n'}
+[0.299664] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/local_setup.bash\n'}
+[0.299703] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/local_setup.sh\n'}
+[0.299743] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/local_setup.zsh\n'}
+[0.299780] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/local_setup.dsv\n'}
+[0.299816] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/package.dsv\n'}
+[0.299868] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/ament_index/resource_index/packages/wp_map_tools\n'}
+[0.299918] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/ament_index/resource_index/rviz_common__pluginlib__plugin/wp_map_tools\n'}
+[0.299983] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table.dae\n'}
+[0.300012] (-) TimerEvent: {}
+[0.300084] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2\n'}
+[0.300118] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/export_wp_map_tools__rosidl_generator_cExport.cmake\n'}
+[0.300145] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/export_wp_map_tools__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.300171] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/export_wp_map_tools__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.300237] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2/man_2.dae\n'}
+[0.300265] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2/color.png\n'}
+[0.300291] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/chair.dae\n'}
+[0.300317] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed\n'}
+[0.300341] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/export_wp_map_tools__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.300365] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/export_wp_map_tools__rosidl_generator_cppExport.cmake\n'}
+[0.300389] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/export_wp_map_tools__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.300467] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed/Wood_Bamboo.jpg\n'}
+[0.300493] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/export_wp_map_tools__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.300518] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_tools__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.300542] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_tools__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.300575] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_tools__rosidl_typesupport_cExport.cmake\n'}
+[0.300600] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_tools__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.300623] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed/Carpet_Pattern_Squares_Multi.jpg\n'}
+[0.300648] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft\n'}
+[0.300672] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft/Wood_Veneer_02.jpg\n'}
+[0.300694] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed.dae\n'}
+[0.300718] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpv3\n'}
+[0.300740] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpv3/wpv3.dae\n'}
+[0.300763] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_tools__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.300786] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_tools__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.300826] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_tools__rosidl_typesupport_cppExport.cmake\n'}
+[0.300865] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_tools__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.300890] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/export_wp_map_tools__rosidl_generator_pyExport.cmake\n'}
+[0.300913] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/export_wp_map_tools__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.300936] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_pluginsExport.cmake\n'}
+[0.300960] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_pluginsExport-noconfig.cmake\n'}
+[0.300985] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.301033] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/woman\n'}
+[0.301060] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/woman/woman.dae\n'}
+[0.301093] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/rosidl_cmake-extras.cmake\n'}
+[0.301135] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.301180] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.301220] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.301262] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.301284] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.301321] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_toolsConfig.cmake\n'}
+[0.301342] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_toolsConfig-version.cmake\n'}
+[0.301363] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/package.xml\n'}
+[0.301384] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/woman/color.png\n'}
+[0.301404] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table\n'}
+[0.301424] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table/Wood_Cherry_Original.jpg\n'}
+[0.301446] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard\n'}
+[0.301479] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard/Wood_Veneer_02.jpg\n'}
+[0.301504] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1\n'}
+[0.301527] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1/man_1.dae\n'}
+[0.301549] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1/color.png\n'}
+[0.301589] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/chair\n'}
+[0.301637] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/chair/Wood_Cherry_Original.jpg\n'}
+[0.301660] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa\n'}
+[0.301683] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa/Carpet_Loop_Pattern.jpg\n'}
+[0.301706] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft.dae\n'}
+[0.301739] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz\n'}
+[0.301781] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/navi_3d.rviz\n'}
+[0.301806] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/fetch.rviz\n'}
+[0.301846] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/slam.rviz\n'}
+[0.301889] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/objects.rviz\n'}
+[0.301915] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/sensor.rviz\n'}
+[0.301957] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/navi.rviz\n'}
+[0.301983] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/pointcloud.rviz\n'}
+[0.302025] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/src\n'}
+[0.302052] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/src/ball_random_move.cpp\n'}
+[0.302097] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/src/objects_publisher.cpp\n'}
+[0.302185] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/src/keyboard_vel_cmd.cpp\n'}
+[0.302212] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/src/wpb_home_mani_sim.cpp\n'}
+[0.302268] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/src/face_detector.py\n'}
+[0.302293] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/src/grab_object_sim.cpp\n'}
+[0.302350] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/msg\n'}
+[0.302376] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/msg/Object.msg\n'}
+[0.302399] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/maps\n'}
+[0.302423] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/maps/.gitignore\n'}
+[0.302498] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/face_detector.py\n'}
+[0.302576] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/wpb_home_mani_sim\n'}
+[0.303075] (wp_map_tools) CommandEnded: {'returncode': 0}
+[0.303838] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/wpb_home_mani_sim" to ""\n'}
+[0.303881] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/keyboard_vel_cmd\n'}
+[0.304212] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/keyboard_vel_cmd" to ""\n'}
+[0.304269] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/ball_random_move\n'}
+[0.304900] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/ball_random_move" to ""\n'}
+[0.304932] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/objects_publisher\n'}
+[0.307270] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/objects_publisher" to ""\n'}
+[0.307306] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/grab_object_sim\n'}
+[0.309671] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/grab_object_sim" to ""\n'}
+[0.309703] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/3_publisher_node\n'}
+[0.310070] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/3_publisher_node" to ""\n'}
+[0.310874] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/3_subscriber_node\n'}
+[0.311644] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/3_subscriber_node" to ""\n'}
+[0.311673] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/4_velocity_command\n'}
+[0.311794] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/4_velocity_command" to ""\n'}
+[0.312074] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_data\n'}
+[0.313349] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_data" to ""\n'}
+[0.313384] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_behavior\n'}
+[0.314734] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_behavior" to ""\n'}
+[0.314766] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/6_imu_data\n'}
+[0.315925] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/6_imu_data" to ""\n'}
+[0.315956] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/6_imu_behavior\n'}
+[0.316513] (wp_map_tools) JobEnded: {'identifier': 'wp_map_tools', 'rc': 0}
+[0.317555] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/6_imu_behavior" to ""\n'}
+[0.317595] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/8_waypoint_navigation\n'}
+[0.318856] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/8_waypoint_navigation" to ""\n'}
+[0.318887] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_image\n'}
+[0.320350] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_image" to ""\n'}
+[0.320410] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_hsv\n'}
+[0.321740] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_hsv" to ""\n'}
+[0.321768] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_follow\n'}
+[0.323073] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_follow" to ""\n'}
+[0.323118] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_face_detect\n'}
+[0.325309] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_face_detect" to ""\n'}
+[0.325343] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/10_pc_data\n'}
+[0.326695] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/10_pc_data" to ""\n'}
+[0.326724] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/10_pc_objects\n'}
+[0.328495] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/10_pc_objects" to ""\n'}
+[0.328540] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/11_mani_ctrl\n'}
+[0.328926] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/11_mani_ctrl" to ""\n'}
+[0.328960] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/11_grab_object\n'}
+[0.330683] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/11_grab_object" to ""\n'}
+[0.330732] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/12_fetch\n'}
+[0.332247] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/12_fetch" to ""\n'}
+[0.332282] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/demo_nav2_client\n'}
+[0.332615] (wpr_simulation2) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/demo_nav2_client" to ""\n'}
+[0.332662] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/ament_index/resource_index/package_run_dependencies/wpr_simulation2\n'}
+[0.332698] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/ament_index/resource_index/parent_prefix_path/wpr_simulation2\n'}
+[0.332739] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/ament_prefix_path.sh\n'}
+[0.332780] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/ament_prefix_path.dsv\n'}
+[0.332840] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/path.sh\n'}
+[0.332888] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/path.dsv\n'}
+[0.332931] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.bash\n'}
+[0.332983] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.sh\n'}
+[0.333008] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.zsh\n'}
+[0.333051] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.dsv\n'}
+[0.333094] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/package.dsv\n'}
+[0.333129] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/ament_index/resource_index/packages/wpr_simulation2\n'}
+[0.333180] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cExport.cmake\n'}
+[0.333230] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.333281] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.333329] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.333378] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cppExport.cmake\n'}
+[0.333428] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.333474] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.333525] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.333569] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.333615] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cExport.cmake\n'}
+[0.333656] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.333701] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.333747] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.333790] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cppExport.cmake\n'}
+[0.333833] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.333878] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_pyExport.cmake\n'}
+[0.333917] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.333957] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake-extras.cmake\n'}
+[0.333995] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.334038] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.334077] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.334117] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.334155] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.334193] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.334233] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2Config.cmake\n'}
+[0.334271] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2Config-version.cmake\n'}
+[0.334309] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/package.xml\n'}
+[0.335954] (wpr_simulation2) CommandEnded: {'returncode': 0}
+[0.343716] (wpr_simulation2) JobEnded: {'identifier': 'wpr_simulation2', 'rc': 0}
+[0.344073] (-) EventReactorShutdown: {}

@@ -1,0 +1,261 @@
+[0.009s] Invoking command in '/home/starfire/ros2_ws/build/wp_map_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/starfire/ros2_ws/build/wp_map_tools -- -j16 -l16
+[0.055s] [  7%] Built target wp_map_tools__rosidl_generator_c
+[0.058s] [  8%] Built target wp_map_tools__cpp
+[0.072s] [  8%] Built target ament_cmake_python_copy_wp_map_tools
+[0.075s] [ 20%] Built target wp_map_tools__rosidl_typesupport_cpp
+[0.075s] [ 23%] Built target wp_map_tools__rosidl_typesupport_fastrtps_c
+[0.078s] [ 31%] Built target wp_map_tools__rosidl_typesupport_introspection_c
+[0.080s] [ 38%] Built target wp_map_tools__rosidl_typesupport_fastrtps_cpp
+[0.080s] [ 46%] Built target wp_map_tools__rosidl_typesupport_c
+[0.083s] [ 53%] Built target wp_map_tools__rosidl_typesupport_introspection_cpp
+[0.093s] [ 55%] [34m[1mAutomatic MOC for target wp_map_plugins[0m
+[0.094s] [ 56%] [34m[1mAutomatic MOC for target demo_navi_waypoint[0m
+[0.095s] [ 58%] [34m[1mAutomatic MOC for target wp_saver[0m
+[0.100s] [ 59%] [34m[1mAutomatic MOC for target wp_edit_node[0m
+[0.103s] [ 59%] Built target wp_map_tools
+[0.103s] [ 61%] [34m[1mAutomatic MOC for target wp_navi_server[0m
+[0.115s] [ 61%] Built target demo_navi_waypoint_autogen
+[0.121s] [ 61%] Built target wp_saver_autogen
+[0.124s] [ 61%] Built target wp_edit_node_autogen
+[0.127s] [ 62%] Built target wp_map_tools__py
+[0.127s] [ 62%] Built target wp_navi_server_autogen
+[0.140s] [ 67%] Built target demo_navi_waypoint
+[0.143s] [ 73%] Built target wp_map_tools__rosidl_generator_py
+[0.148s] [ 79%] Built target wp_saver
+[0.148s] [ 82%] Built target wp_edit_node
+[0.150s] [ 86%] Built target wp_navi_server
+[0.157s] [ 89%] Built target wp_map_tools__rosidl_typesupport_c__pyext
+[0.160s] [ 92%] Built target wp_map_tools__rosidl_typesupport_introspection_c__pyext
+[0.160s] [ 95%] Built target wp_map_tools__rosidl_typesupport_fastrtps_c__pyext
+[0.245s] running egg_info
+[0.246s] writing wp_map_tools.egg-info/PKG-INFO
+[0.246s] writing dependency_links to wp_map_tools.egg-info/dependency_links.txt
+[0.246s] writing top-level names to wp_map_tools.egg-info/top_level.txt
+[0.247s] reading manifest file 'wp_map_tools.egg-info/SOURCES.txt'
+[0.248s] writing manifest file 'wp_map_tools.egg-info/SOURCES.txt'
+[0.263s] [ 95%] Built target ament_cmake_python_build_wp_map_tools_egg
+[0.320s] [ 95%] Built target wp_map_plugins_autogen
+[0.343s] [35m[1mConsolidate compiler generated dependencies of target wp_map_plugins[0m
+[0.354s] [ 97%] [32mBuilding CXX object CMakeFiles/wp_map_plugins.dir/wp_map_plugins_autogen/mocs_compilation.cpp.o[0m
+[2.687s] [ 98%] [32m[1mLinking CXX shared library libwp_map_plugins.so[0m
+[3.623s] [100%] Built target wp_map_plugins
+[3.632s] Invoked command in '/home/starfire/ros2_ws/build/wp_map_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/starfire/ros2_ws/build/wp_map_tools -- -j16 -l16
+[3.633s] Invoking command in '/home/starfire/ros2_ws/build/wp_map_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/starfire/ros2_ws/build/wp_map_tools
+[3.638s] -- Install configuration: ""
+[3.638s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/ament_index/resource_index/rosidl_interfaces/wp_map_tools
+[3.638s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools
+[3.638s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv
+[3.638s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/save_waypoints.h
+[3.638s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/get_waypoint_by_name.h
+[3.638s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail
+[3.638s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__functions.c
+[3.638s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__struct.h
+[3.638s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__type_support.h
+[3.638s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__functions.h
+[3.638s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__struct.h
+[3.638s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__functions.c
+[3.638s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__functions.h
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__type_support.h
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/rosidl_generator_c__visibility_control.h
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/waypoint.h
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__struct.h
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__functions.h
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__functions.c
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__type_support.h
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/environment/library_path.sh
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/environment/library_path.dsv
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_generator_c.so
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__rosidl_typesupport_fastrtps_c.h
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__rosidl_typesupport_fastrtps_c.h
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__rosidl_typesupport_fastrtps_c.h
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_fastrtps_c.so
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/save_waypoints.hpp
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__traits.hpp
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__traits.hpp
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__type_support.hpp
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__struct.hpp
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__builder.hpp
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__type_support.hpp
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__struct.hpp
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__builder.hpp
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/get_waypoint_by_name.hpp
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg
+[3.639s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/waypoint.hpp
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__struct.hpp
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__traits.hpp
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__builder.hpp
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__type_support.hpp
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__rosidl_typesupport_fastrtps_cpp.hpp
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/dds_fastrtps
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__rosidl_typesupport_fastrtps_cpp.hpp
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/dds_fastrtps
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__rosidl_typesupport_fastrtps_cpp.hpp
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_fastrtps_cpp.so
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__rosidl_typesupport_introspection_c.h
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__rosidl_typesupport_introspection_c.h
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__type_support.c
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__type_support.c
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__rosidl_typesupport_introspection_c.h
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__type_support.c
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_introspection_c.so
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_c.so
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__rosidl_typesupport_introspection_cpp.hpp
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__rosidl_typesupport_introspection_cpp.hpp
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__type_support.cpp
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__type_support.cpp
+[3.640s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg
+[3.641s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail
+[3.641s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__rosidl_typesupport_introspection_cpp.hpp
+[3.641s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__type_support.cpp
+[3.641s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_introspection_cpp.so
+[3.641s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_cpp.so
+[3.641s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/environment/pythonpath.sh
+[3.641s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/environment/pythonpath.dsv
+[3.641s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools-1.0.0-py3.10.egg-info
+[3.641s] -- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools-1.0.0-py3.10.egg-info/top_level.txt
+[3.641s] -- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools-1.0.0-py3.10.egg-info/PKG-INFO
+[3.641s] -- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools-1.0.0-py3.10.egg-info/dependency_links.txt
+[3.641s] -- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools-1.0.0-py3.10.egg-info/SOURCES.txt
+[3.641s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools
+[3.641s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/srv
+[3.641s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/srv/_save_waypoints_s.c
+[3.641s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/srv/_save_waypoints.py
+[3.641s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/srv/_get_waypoint_by_name_s.c
+[3.641s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/srv/_get_waypoint_by_name.py
+[3.641s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/srv/__init__.py
+[3.641s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/wp_map_tools_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.641s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/wp_map_tools_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.641s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/_wp_map_tools_s.ep.rosidl_typesupport_c.c
+[3.641s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/_wp_map_tools_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.641s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/wp_map_tools_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.641s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/__init__.py
+[3.641s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/_wp_map_tools_s.ep.rosidl_typesupport_introspection_c.c
+[3.641s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/libwp_map_tools__rosidl_generator_py.so
+[3.641s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/msg
+[3.641s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/msg/_waypoint_s.c
+[3.641s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/msg/_waypoint.py
+[3.641s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/msg/__init__.py
+[3.658s] Listing '/home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools'...
+[3.658s] Listing '/home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/msg'...
+[3.658s] Listing '/home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/srv'...
+[3.661s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/wp_map_tools_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.661s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/wp_map_tools_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.661s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/wp_map_tools_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.661s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_generator_py.so
+[3.661s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/msg/Waypoint.idl
+[3.661s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/SaveWaypoints.idl
+[3.661s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/GetWaypointByName.idl
+[3.661s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/msg/Waypoint.msg
+[3.661s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/SaveWaypoints.srv
+[3.661s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/SaveWaypoints_Request.msg
+[3.661s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/SaveWaypoints_Response.msg
+[3.662s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/GetWaypointByName.srv
+[3.662s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/GetWaypointByName_Request.msg
+[3.662s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/GetWaypointByName_Response.msg
+[3.662s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/plugins_description.xml
+[3.662s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/plugins_description.xml
+[3.662s] -- Installing: /home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_plugins.so
+[3.662s] -- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_plugins.so" to ""
+[3.662s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/
+[3.662s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include//wp_map_tools
+[3.662s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include//wp_map_tools/add_waypoint_tool.hpp
+[3.662s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/launch
+[3.662s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/launch/add_waypoint_sim.launch.py
+[3.662s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/launch/navi_waypoint_home.launch.py
+[3.662s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/launch/marker_navigation.launch.py
+[3.662s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/launch/navi_waypoint_sim.launch.py
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/launch/add_waypoint_home.launch.py
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/meshes
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/meshes/charger.dae
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/meshes/waypoint.dae
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/rviz
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/rviz/edit.rviz
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/rviz/navi.rviz
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/msg
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/msg/Waypoint.msg
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/GetWaypointByIndex.srv
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/SaveWaypoints.srv
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/GetChargerByName.srv
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/GetNumOfWaypoints.srv
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/GetWaypointByName.srv
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/AddNewWaypoint.srv
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/icons
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/icons/classes
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/icons/classes/AddCharger.png
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/icons/classes/AddWaypointTool.png
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/lib/wp_map_tools/wp_edit_node
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/lib/wp_map_tools/wp_saver
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/lib/wp_map_tools/wp_navi_server
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/lib/wp_map_tools/demo_navi_waypoint
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/ament_index/resource_index/package_run_dependencies/wp_map_tools
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/ament_index/resource_index/parent_prefix_path/wp_map_tools
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/environment/ament_prefix_path.sh
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/environment/ament_prefix_path.dsv
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/environment/path.sh
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/environment/path.dsv
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/local_setup.bash
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/local_setup.sh
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/local_setup.zsh
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/local_setup.dsv
+[3.663s] -- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/package.dsv
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/ament_index/resource_index/packages/wp_map_tools
+[3.663s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/ament_index/resource_index/rviz_common__pluginlib__plugin/wp_map_tools
+[3.664s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/export_wp_map_tools__rosidl_generator_cExport.cmake
+[3.664s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/export_wp_map_tools__rosidl_generator_cExport-noconfig.cmake
+[3.664s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/export_wp_map_tools__rosidl_typesupport_fastrtps_cExport.cmake
+[3.664s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/export_wp_map_tools__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.664s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/export_wp_map_tools__rosidl_generator_cppExport.cmake
+[3.664s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/export_wp_map_tools__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.664s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/export_wp_map_tools__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.664s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_tools__rosidl_typesupport_introspection_cExport.cmake
+[3.664s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_tools__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.664s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_tools__rosidl_typesupport_cExport.cmake
+[3.664s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_tools__rosidl_typesupport_cExport-noconfig.cmake
+[3.664s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_tools__rosidl_typesupport_introspection_cppExport.cmake
+[3.664s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_tools__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.664s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_tools__rosidl_typesupport_cppExport.cmake
+[3.664s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_tools__rosidl_typesupport_cppExport-noconfig.cmake
+[3.664s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/export_wp_map_tools__rosidl_generator_pyExport.cmake
+[3.664s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/export_wp_map_tools__rosidl_generator_pyExport-noconfig.cmake
+[3.664s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_pluginsExport.cmake
+[3.664s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_pluginsExport-noconfig.cmake
+[3.664s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.664s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/rosidl_cmake-extras.cmake
+[3.664s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.664s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/ament_cmake_export_libraries-extras.cmake
+[3.664s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/ament_cmake_export_targets-extras.cmake
+[3.664s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.664s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.664s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_toolsConfig.cmake
+[3.664s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_toolsConfig-version.cmake
+[3.664s] -- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/package.xml
+[3.665s] Invoked command in '/home/starfire/ros2_ws/build/wp_map_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/starfire/ros2_ws/build/wp_map_tools

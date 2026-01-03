@@ -1,0 +1,388 @@
+[35m[1mConsolidate compiler generated dependencies of target wpb_home_mani_sim[0m
+[35m[1mConsolidate compiler generated dependencies of target 5_lidar_behavior[0m
+[35m[1mConsolidate compiler generated dependencies of target 3_subscriber_node[0m
+[35m[1mConsolidate compiler generated dependencies of target 6_imu_behavior[0m
+[35m[1mConsolidate compiler generated dependencies of target 6_imu_data[0m
+[35m[1mConsolidate compiler generated dependencies of target 5_lidar_data[0m
+[35m[1mConsolidate compiler generated dependencies of target 8_waypoint_navigation[0m
+[35m[1mConsolidate compiler generated dependencies of target 9_cv_image[0m
+[  5%] Built target wpb_home_mani_sim
+[  5%] Built target keyboard_vel_cmd
+[  6%] Built target wpr_simulation2__cpp
+[  8%] Built target 3_publisher_node
+[ 12%] Built target wpr_simulation2__rosidl_generator_c
+[ 17%] Built target ball_random_move
+[ 16%] Built target 3_my_node
+[ 20%] Built target 3_subscriber_node
+[ 22%] Built target 4_velocity_command
+[ 22%] Built target ament_cmake_python_copy_wpr_simulation2
+[ 25%] Built target 5_lidar_behavior
+[ 27%] Built target 6_imu_data
+[ 30%] Built target 5_lidar_data
+[ 32%] Built target 6_imu_behavior
+[ 35%] Built target 8_waypoint_navigation
+[ 37%] Built target 9_cv_image
+[35m[1mConsolidate compiler generated dependencies of target 9_cv_hsv[0m
+[35m[1mConsolidate compiler generated dependencies of target 9_cv_face_detect[0m
+[35m[1mConsolidate compiler generated dependencies of target 9_cv_follow[0m
+[35m[1mConsolidate compiler generated dependencies of target 11_mani_ctrl[0m
+[35m[1mConsolidate compiler generated dependencies of target 10_pc_data[0m
+[35m[1mConsolidate compiler generated dependencies of target 10_pc_objects[0m
+[35m[1mConsolidate compiler generated dependencies of target 12_fetch[0m
+[35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target demo_nav2_client[0m
+[35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_fastrtps_c[0m
+[ 40%] Built target 9_cv_hsv
+[ 45%] Built target 11_mani_ctrl
+[ 45%] Built target 9_cv_follow
+[ 48%] Built target 12_fetch
+[ 50%] Built target 9_cv_face_detect
+[ 54%] Built target wpr_simulation2__rosidl_typesupport_cpp
+[ 58%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c
+[ 60%] Built target demo_nav2_client
+[ 69%] Built target 10_pc_data
+[ 70%] Built target wpr_simulation2__rosidl_typesupport_introspection_c
+[ 70%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_cpp
+[ 74%] Built target wpr_simulation2__rosidl_typesupport_introspection_cpp
+[ 78%] Built target wpr_simulation2__rosidl_typesupport_c
+[ 81%] Built target 10_pc_objects
+[35m[1mConsolidate compiler generated dependencies of target objects_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target 11_grab_object[0m
+[35m[1mConsolidate compiler generated dependencies of target grab_object_sim[0m
+[ 81%] Built target wpr_simulation2
+[ 83%] Built target grab_object_sim
+[ 86%] Built target 11_grab_object
+[ 88%] Built target objects_publisher
+[ 89%] Built target wpr_simulation2__py
+[35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_generator_py[0m
+[ 92%] Built target wpr_simulation2__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 97%] Built target wpr_simulation2__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target wpr_simulation2__rosidl_typesupport_c__pyext
+[100%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing wpr_simulation2.egg-info/PKG-INFO
+writing dependency_links to wpr_simulation2.egg-info/dependency_links.txt
+writing top-level names to wpr_simulation2.egg-info/top_level.txt
+reading manifest file 'wpr_simulation2.egg-info/SOURCES.txt'
+writing manifest file 'wpr_simulation2.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_wpr_simulation2_egg
+-- Install configuration: ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/ament_index/resource_index/rosidl_interfaces/wpr_simulation2
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__functions.h
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__struct.h
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__functions.c
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.h
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/object.h
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/library_path.sh
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/library_path.dsv
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_c.so
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/object.hpp
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__traits.hpp
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.hpp
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__struct.hpp
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__builder.hpp
+-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/dds_fastrtps
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.c
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_introspection_c.h
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_c.so
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.cpp
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/pythonpath.sh
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/pythonpath.dsv
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/libwpr_simulation2__rosidl_generator_py.so
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/__init__.py
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/_object.py
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/_object_s.c
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/__init__.py
+Listing '/home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2'...
+Compiling '/home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/__init__.py'...
+Listing '/home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg'...
+Compiling '/home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/__init__.py'...
+Compiling '/home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/_object.py'...
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_py.so
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_py.so" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/msg/Object.idl
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/msg/Object.msg
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/config
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/config/wpb_home_controller.yaml
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/config/nav2_params.yaml
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_face.launch.py
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_persons.launch.py
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_objects.launch.py
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_simple.launch.py
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/demo_mani_ctrl.launch.py
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/robocup_home_mani.launch.py
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb.launch.py
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/world.launch.py
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_lidar.launch.py
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_balls.launch.py
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/slam.launch.py
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_scene_1.launch.py
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_mani.launch.py
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/map_tools.launch.py
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_head_up.launch.py
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/robocup_home.launch.py
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_mani.launch.py
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/navigation.launch.py
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_table.launch.py
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_objects.launch.py
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/8_nav.launch.py
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/12_home.launch.py
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/8_waypoint_nav.launch.py
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.yaml
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.xml
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/7_slam.launch.py
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.py
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/table.world
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/wpb_pose.world
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/simple.world
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/robocup_home.world
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/wpb_simple.world
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/light.world
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/man_1.model
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_lidar.model
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_head_up.model
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/man_2.model
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_mani.model
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bookshelft.model
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bottles
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bottles/green_bottle.model
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bottles/red_bottle.model
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpv3.model
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/sofa.model
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home.model
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/chair.model
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/cupboard.model
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/tea_table.model
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/table.model
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/kai_standing.model
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/woman.model
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/blue_ball.model
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/green_ball.model
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/red_ball.model
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/orange_ball.model
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpr1.model
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bed.model
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa.dae
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard.dae
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/table
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/table/Wood_Cherry_Original.jpg
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/table.dae
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/kai
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/kai/kai_standing.dae
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/kai/1931_LaFeiEr_D_512.png
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/forearm.dae
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/finger.dae
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/fingertip.dae
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/base.dae
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/palm.dae
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/torso.dae
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/upperarm.dae
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bottle.stl
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/forearm.dae
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/wpb_home_std.dae
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/wpb_home_mani.dae
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table.dae
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2/man_2.dae
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2/color.png
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/chair.dae
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed/Wood_Bamboo.jpg
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed/Carpet_Pattern_Squares_Multi.jpg
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft/Wood_Veneer_02.jpg
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed.dae
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpv3
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpv3/wpv3.dae
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/woman
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/woman/woman.dae
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/woman/color.png
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table/Wood_Cherry_Original.jpg
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard/Wood_Veneer_02.jpg
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1/man_1.dae
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1/color.png
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/chair
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/chair/Wood_Cherry_Original.jpg
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa/Carpet_Loop_Pattern.jpg
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft.dae
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/navi_3d.rviz
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/fetch.rviz
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/slam.rviz
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/objects.rviz
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/sensor.rviz
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/navi.rviz
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/pointcloud.rviz
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/src
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/src/ball_random_move.cpp
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/src/objects_publisher.cpp
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/src/keyboard_vel_cmd.cpp
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/src/wpb_home_mani_sim.cpp
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/src/face_detector.py
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/src/grab_object_sim.cpp
+-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/msg
+-- Up-to-date: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/msg/Object.msg
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/maps
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/maps/.gitignore
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/face_detector.py
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/wpb_home_mani_sim
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/wpb_home_mani_sim" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/keyboard_vel_cmd
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/keyboard_vel_cmd" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/ball_random_move
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/ball_random_move" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/objects_publisher
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/objects_publisher" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/grab_object_sim
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/grab_object_sim" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/3_publisher_node
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/3_publisher_node" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/3_subscriber_node
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/3_subscriber_node" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/4_velocity_command
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/4_velocity_command" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_data
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_data" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_behavior
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_behavior" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/6_imu_data
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/6_imu_data" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/6_imu_behavior
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/6_imu_behavior" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/8_waypoint_navigation
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/8_waypoint_navigation" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_image
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_image" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_hsv
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_hsv" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_follow
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_follow" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_face_detect
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_face_detect" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/10_pc_data
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/10_pc_data" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/10_pc_objects
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/10_pc_objects" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/11_mani_ctrl
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/11_mani_ctrl" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/11_grab_object
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/11_grab_object" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/12_fetch
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/12_fetch" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/demo_nav2_client
+-- Set runtime path of "/home/starfire/ros2_ws/install/wpr_simulation2/lib/wpr_simulation2/demo_nav2_client" to ""
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/ament_index/resource_index/package_run_dependencies/wpr_simulation2
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/ament_index/resource_index/parent_prefix_path/wpr_simulation2
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/ament_prefix_path.sh
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/ament_prefix_path.dsv
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/path.sh
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/path.dsv
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.bash
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.sh
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.zsh
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.dsv
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/package.dsv
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/ament_index/resource_index/packages/wpr_simulation2
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cExport.cmake
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cppExport.cmake
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cExport.cmake
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_pyExport.cmake
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2Config.cmake
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2Config-version.cmake
+-- Installing: /home/starfire/ros2_ws/install/wpr_simulation2/share/wpr_simulation2/package.xml

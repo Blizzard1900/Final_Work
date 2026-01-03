@@ -1,0 +1,10 @@
+/home/starfire/ros2_ws/build/home_pkg/CMakeFiles/uninstall.dir
+/home/starfire/ros2_ws/build/home_pkg/CMakeFiles/home_pkg_uninstall.dir
+/home/starfire/ros2_ws/build/home_pkg/CMakeFiles/fetch.dir
+/home/starfire/ros2_ws/build/home_pkg/CMakeFiles/test.dir
+/home/starfire/ros2_ws/build/home_pkg/CMakeFiles/edit_cache.dir
+/home/starfire/ros2_ws/build/home_pkg/CMakeFiles/rebuild_cache.dir
+/home/starfire/ros2_ws/build/home_pkg/CMakeFiles/list_install_components.dir
+/home/starfire/ros2_ws/build/home_pkg/CMakeFiles/install.dir
+/home/starfire/ros2_ws/build/home_pkg/CMakeFiles/install/local.dir
+/home/starfire/ros2_ws/build/home_pkg/CMakeFiles/install/strip.dir

@@ -1,0 +1,17 @@
+/home/starfire/ros2_ws/install/home_pkg/lib/home_pkg/fetch
+/home/starfire/ros2_ws/install/home_pkg/share/home_pkg/launch/home.launch.py
+/home/starfire/ros2_ws/install/home_pkg/share/ament_index/resource_index/package_run_dependencies/home_pkg
+/home/starfire/ros2_ws/install/home_pkg/share/ament_index/resource_index/parent_prefix_path/home_pkg
+/home/starfire/ros2_ws/install/home_pkg/share/home_pkg/environment/ament_prefix_path.sh
+/home/starfire/ros2_ws/install/home_pkg/share/home_pkg/environment/ament_prefix_path.dsv
+/home/starfire/ros2_ws/install/home_pkg/share/home_pkg/environment/path.sh
+/home/starfire/ros2_ws/install/home_pkg/share/home_pkg/environment/path.dsv
+/home/starfire/ros2_ws/install/home_pkg/share/home_pkg/local_setup.bash
+/home/starfire/ros2_ws/install/home_pkg/share/home_pkg/local_setup.sh
+/home/starfire/ros2_ws/install/home_pkg/share/home_pkg/local_setup.zsh
+/home/starfire/ros2_ws/install/home_pkg/share/home_pkg/local_setup.dsv
+/home/starfire/ros2_ws/install/home_pkg/share/home_pkg/package.dsv
+/home/starfire/ros2_ws/install/home_pkg/share/ament_index/resource_index/packages/home_pkg
+/home/starfire/ros2_ws/install/home_pkg/share/home_pkg/cmake/home_pkgConfig.cmake
+/home/starfire/ros2_ws/install/home_pkg/share/home_pkg/cmake/home_pkgConfig-version.cmake
+/home/starfire/ros2_ws/install/home_pkg/share/home_pkg/package.xml

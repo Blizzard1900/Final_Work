@@ -1,0 +1,72 @@
+[0.008s] Invoking command in '/home/starfire/ros2_ws/build/home_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/starfire/ros2_ws/src/home_pkg -DCMAKE_INSTALL_PREFIX=/home/starfire/ros2_ws/install/home_pkg
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.126s] -- The CXX compiler identification is GNU 11.4.0
+[0.137s] -- Detecting C compiler ABI info
+[0.186s] -- Detecting C compiler ABI info - done
+[0.194s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.194s] -- Detecting C compile features
+[0.194s] -- Detecting C compile features - done
+[0.197s] -- Detecting CXX compiler ABI info
+[0.261s] -- Detecting CXX compiler ABI info - done
+[0.265s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.265s] -- Detecting CXX compile features
+[0.265s] -- Detecting CXX compile features - done
+[0.267s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.369s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.423s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.446s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.448s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.452s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.459s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.468s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.504s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.505s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.573s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.591s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.618s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.623s] -- Looking for pthread.h
+[0.677s] -- Looking for pthread.h - found
+[0.678s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.738s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.739s] -- Found Threads: TRUE  
+[0.775s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.823s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.824s] -- Configured cppcheck include dirs: 
+[0.824s] -- Configured cppcheck exclude dirs and/or files: 
+[0.824s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.824s] -- Added test 'lint_cmake' to check CMake code style
+[0.824s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.825s] -- Added test 'uncrustify' to check C / C++ code style
+[0.825s] -- Configured uncrustify additional arguments: 
+[0.825s] -- Added test 'xmllint' to check XML markup files
+[0.825s] -- Configuring done
+[0.830s] -- Generating done
+[0.832s] -- Build files have been written to: /home/starfire/ros2_ws/build/home_pkg
+[0.837s] Invoked command in '/home/starfire/ros2_ws/build/home_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/starfire/ros2_ws/src/home_pkg -DCMAKE_INSTALL_PREFIX=/home/starfire/ros2_ws/install/home_pkg
+[0.839s] Invoking command in '/home/starfire/ros2_ws/build/home_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/starfire/ros2_ws/build/home_pkg -- -j16 -l16
+[0.876s] [ 50%] [32mBuilding CXX object CMakeFiles/fetch.dir/src/fetch.cpp.o[0m
+[5.725s] [100%] [32m[1mLinking CXX executable fetch[0m
+[5.950s] [100%] Built target fetch
+[5.959s] Invoked command in '/home/starfire/ros2_ws/build/home_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/starfire/ros2_ws/build/home_pkg -- -j16 -l16
+[5.961s] Invoking command in '/home/starfire/ros2_ws/build/home_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/starfire/ros2_ws/build/home_pkg
+[5.965s] -- Install configuration: ""
+[5.965s] -- Installing: /home/starfire/ros2_ws/install/home_pkg/lib/home_pkg/fetch
+[5.967s] -- Set runtime path of "/home/starfire/ros2_ws/install/home_pkg/lib/home_pkg/fetch" to ""
+[5.967s] -- Installing: /home/starfire/ros2_ws/install/home_pkg/share/home_pkg/launch
+[5.967s] -- Installing: /home/starfire/ros2_ws/install/home_pkg/share/home_pkg/launch/home.launch.py
+[5.967s] -- Installing: /home/starfire/ros2_ws/install/home_pkg/share/ament_index/resource_index/package_run_dependencies/home_pkg
+[5.967s] -- Installing: /home/starfire/ros2_ws/install/home_pkg/share/ament_index/resource_index/parent_prefix_path/home_pkg
+[5.967s] -- Installing: /home/starfire/ros2_ws/install/home_pkg/share/home_pkg/environment/ament_prefix_path.sh
+[5.967s] -- Installing: /home/starfire/ros2_ws/install/home_pkg/share/home_pkg/environment/ament_prefix_path.dsv
+[5.967s] -- Installing: /home/starfire/ros2_ws/install/home_pkg/share/home_pkg/environment/path.sh
+[5.967s] -- Installing: /home/starfire/ros2_ws/install/home_pkg/share/home_pkg/environment/path.dsv
+[5.967s] -- Installing: /home/starfire/ros2_ws/install/home_pkg/share/home_pkg/local_setup.bash
+[5.967s] -- Installing: /home/starfire/ros2_ws/install/home_pkg/share/home_pkg/local_setup.sh
+[5.967s] -- Installing: /home/starfire/ros2_ws/install/home_pkg/share/home_pkg/local_setup.zsh
+[5.967s] -- Installing: /home/starfire/ros2_ws/install/home_pkg/share/home_pkg/local_setup.dsv
+[5.967s] -- Installing: /home/starfire/ros2_ws/install/home_pkg/share/home_pkg/package.dsv
+[5.967s] -- Installing: /home/starfire/ros2_ws/install/home_pkg/share/ament_index/resource_index/packages/home_pkg
+[5.967s] -- Installing: /home/starfire/ros2_ws/install/home_pkg/share/home_pkg/cmake/home_pkgConfig.cmake
+[5.967s] -- Installing: /home/starfire/ros2_ws/install/home_pkg/share/home_pkg/cmake/home_pkgConfig-version.cmake
+[5.967s] -- Installing: /home/starfire/ros2_ws/install/home_pkg/share/home_pkg/package.xml
+[5.969s] Invoked command in '/home/starfire/ros2_ws/build/home_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/starfire/ros2_ws/build/home_pkg

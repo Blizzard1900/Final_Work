@@ -1,0 +1,579 @@
+[0.000000] (-) TimerEvent: {}
+[0.000452] (-) JobUnselected: {'identifier': 'wpr_simulation2'}
+[0.000708] (wp_map_tools) JobQueued: {'identifier': 'wp_map_tools', 'dependencies': OrderedDict()}
+[0.001048] (wp_map_tools) JobStarted: {'identifier': 'wp_map_tools'}
+[0.005808] (wp_map_tools) JobProgress: {'identifier': 'wp_map_tools', 'progress': 'cmake'}
+[0.006161] (wp_map_tools) Command: {'cmd': ['/usr/bin/cmake', '/home/starfire/ros2_ws/src/wp_map_tools', '-DCMAKE_INSTALL_PREFIX=/home/starfire/ros2_ws/install/wp_map_tools'], 'cwd': '/home/starfire/ros2_ws/build/wp_map_tools', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'starfire'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/starfire'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.107.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1251'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1424'), ('BUNDLED_DEBUGPY_PATH', '/home/starfire/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9164'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'starfire'), ('JOURNAL_STREAM', '8:9199'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'starfire'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/starfire/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/starfire/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/starfire/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/starfire-Legion-Y7000P-IRH8:@/tmp/.ICE-unix/1392,unix/starfire-Legion-Y7000P-IRH8:/tmp/.ICE-unix/1392'), ('INVOCATION_ID', 'ff68511c20534cbfaaad2899cb9a11e2'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/starfire/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e14db974bbd3aa27.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/starfire/.config/Code/User/workspaceStorage/af1ab01ee47bd6fabcdd2fb9819024aa/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QFBDI3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a290e9dcf1.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/starfire/ros2_ws/build/wp_map_tools'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.055071] (wp_map_tools) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.092365] (wp_map_tools) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.098456] (wp_map_tools) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099956] (-) TimerEvent: {}
+[0.148249] (wp_map_tools) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.152791] (wp_map_tools) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.153778] (wp_map_tools) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.153986] (wp_map_tools) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.156221] (wp_map_tools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.200098] (-) TimerEvent: {}
+[0.216147] (wp_map_tools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.224108] (wp_map_tools) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.224395] (wp_map_tools) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.224852] (wp_map_tools) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.229017] (wp_map_tools) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300339] (-) TimerEvent: {}
+[0.341666] (wp_map_tools) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.400473] (-) TimerEvent: {}
+[0.404255] (wp_map_tools) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.431485] (wp_map_tools) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.434940] (wp_map_tools) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.441529] (wp_map_tools) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.452505] (wp_map_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.465613] (wp_map_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.495553] (wp_map_tools) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.500564] (-) TimerEvent: {}
+[0.523237] (wp_map_tools) StdoutLine: {'line': b'-- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)\n'}
+[0.555613] (wp_map_tools) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.557193] (wp_map_tools) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600720] (-) TimerEvent: {}
+[0.626972] (wp_map_tools) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.651217] (wp_map_tools) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.677313] (wp_map_tools) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.683104] (wp_map_tools) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.700783] (-) TimerEvent: {}
+[0.734465] (wp_map_tools) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.734818] (wp_map_tools) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.785138] (wp_map_tools) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.785808] (wp_map_tools) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.800864] (-) TimerEvent: {}
+[0.819682] (wp_map_tools) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.20 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[0.862684] (wp_map_tools) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.16 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[0.869074] (wp_map_tools) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.16 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[0.883768] (wp_map_tools) StdoutLine: {'line': b'-- Found rviz_common: 11.2.23 (/opt/ros/humble/share/rviz_common/cmake)\n'}
+[0.894651] (wp_map_tools) StdoutLine: {'line': b"-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'\n"}
+[0.898552] (wp_map_tools) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[0.899680] (wp_map_tools) StdoutLine: {'line': b'-- Found OGRE\n'}
+[0.899758] (wp_map_tools) StdoutLine: {'line': b'--   static     : OFF\n'}
+[0.899807] (wp_map_tools) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[0.899854] (wp_map_tools) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[0.899901] (wp_map_tools) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[0.899946] (wp_map_tools) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[0.899991] (wp_map_tools) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[0.900036] (wp_map_tools) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[0.900080] (wp_map_tools) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[0.900155] (wp_map_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[0.900197] (wp_map_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[0.900238] (wp_map_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[0.900274] (wp_map_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[0.900924] (-) TimerEvent: {}
+[0.911937] (wp_map_tools) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[0.914915] (wp_map_tools) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[0.978415] (wp_map_tools) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[0.979503] (wp_map_tools) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[1.001075] (-) TimerEvent: {}
+[1.032784] (wp_map_tools) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[1.032958] (wp_map_tools) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[1.081655] (wp_map_tools) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[1.081822] (wp_map_tools) StdoutLine: {'line': b'-- Looking for connect\n'}
+[1.101180] (-) TimerEvent: {}
+[1.134610] (wp_map_tools) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[1.134857] (wp_map_tools) StdoutLine: {'line': b'-- Looking for remove\n'}
+[1.186625] (wp_map_tools) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[1.186816] (wp_map_tools) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[1.201287] (-) TimerEvent: {}
+[1.236724] (wp_map_tools) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[1.236872] (wp_map_tools) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[1.289033] (wp_map_tools) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[1.301404] (-) TimerEvent: {}
+[1.350888] (wp_map_tools) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[1.373271] (wp_map_tools) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.373401] (wp_map_tools) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.401499] (-) TimerEvent: {}
+[1.405269] (wp_map_tools) StdoutLine: {'line': b'-- Found rviz_default_plugins: 11.2.23 (/opt/ros/humble/share/rviz_default_plugins/cmake)\n'}
+[1.432440] (wp_map_tools) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.501614] (-) TimerEvent: {}
+[1.601868] (-) TimerEvent: {}
+[1.623405] (wp_map_tools) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.702002] (-) TimerEvent: {}
+[1.802313] (-) TimerEvent: {}
+[1.875439] (wp_map_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.902455] (-) TimerEvent: {}
+[1.982131] (wp_map_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.998095] (wp_map_tools) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.999005] (wp_map_tools) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.002526] (-) TimerEvent: {}
+[2.022848] (wp_map_tools) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.023187] (wp_map_tools) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.023302] (wp_map_tools) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.023370] (wp_map_tools) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.037087] (wp_map_tools) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.083587] (wp_map_tools) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.097342] (wp_map_tools) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.097903] (wp_map_tools) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/starfire/ros2_ws/src/wp_map_tools/include\n'}
+[2.098003] (wp_map_tools) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.098493] (wp_map_tools) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.099146] (wp_map_tools) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.099510] (wp_map_tools) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.101288] (wp_map_tools) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.101464] (wp_map_tools) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.101752] (wp_map_tools) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.102612] (-) TimerEvent: {}
+[2.103156] (wp_map_tools) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.156043] (wp_map_tools) StdoutLine: {'line': b'-- Generating done\n'}
+[2.169309] (wp_map_tools) StdoutLine: {'line': b'-- Build files have been written to: /home/starfire/ros2_ws/build/wp_map_tools\n'}
+[2.182864] (wp_map_tools) CommandEnded: {'returncode': 0}
+[2.183524] (wp_map_tools) JobProgress: {'identifier': 'wp_map_tools', 'progress': 'build'}
+[2.184161] (wp_map_tools) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/starfire/ros2_ws/build/wp_map_tools', '--', '-j16', '-l16'], 'cwd': '/home/starfire/ros2_ws/build/wp_map_tools', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'starfire'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/starfire'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.107.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1251'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1424'), ('BUNDLED_DEBUGPY_PATH', '/home/starfire/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9164'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'starfire'), ('JOURNAL_STREAM', '8:9199'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'starfire'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/starfire/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/starfire/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/starfire/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/starfire-Legion-Y7000P-IRH8:@/tmp/.ICE-unix/1392,unix/starfire-Legion-Y7000P-IRH8:/tmp/.ICE-unix/1392'), ('INVOCATION_ID', 'ff68511c20534cbfaaad2899cb9a11e2'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/starfire/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e14db974bbd3aa27.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/starfire/.config/Code/User/workspaceStorage/af1ab01ee47bd6fabcdd2fb9819024aa/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QFBDI3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a290e9dcf1.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/starfire/ros2_ws/build/wp_map_tools'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.202701] (-) TimerEvent: {}
+[2.222589] (wp_map_tools) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.227474] (wp_map_tools) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.238143] (wp_map_tools) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_wp_map_tools\n'}
+[2.302819] (-) TimerEvent: {}
+[2.394332] (wp_map_tools) StdoutLine: {'line': b'running egg_info\n'}
+[2.396938] (wp_map_tools) StdoutLine: {'line': b'creating wp_map_tools.egg-info\n'}
+[2.397033] (wp_map_tools) StdoutLine: {'line': b'writing wp_map_tools.egg-info/PKG-INFO\n'}
+[2.397137] (wp_map_tools) StdoutLine: {'line': b'writing dependency_links to wp_map_tools.egg-info/dependency_links.txt\n'}
+[2.397210] (wp_map_tools) StdoutLine: {'line': b'writing top-level names to wp_map_tools.egg-info/top_level.txt\n'}
+[2.397279] (wp_map_tools) StdoutLine: {'line': b"writing manifest file 'wp_map_tools.egg-info/SOURCES.txt'\n"}
+[2.399609] (wp_map_tools) StdoutLine: {'line': b"reading manifest file 'wp_map_tools.egg-info/SOURCES.txt'\n"}
+[2.399787] (wp_map_tools) StdoutLine: {'line': b"writing manifest file 'wp_map_tools.egg-info/SOURCES.txt'\n"}
+[2.402953] (-) TimerEvent: {}
+[2.428857] (wp_map_tools) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_wp_map_tools_egg\n'}
+[2.503059] (-) TimerEvent: {}
+[2.529934] (wp_map_tools) StdoutLine: {'line': b'[  2%] Built target wp_map_tools__cpp\n'}
+[2.537193] (wp_map_tools) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.539467] (wp_map_tools) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.540112] (wp_map_tools) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.598246] (wp_map_tools) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/wp_map_tools__rosidl_generator_c.dir/rosidl_generator_c/wp_map_tools/msg/detail/waypoint__functions.c.o\x1b[0m\n'}
+[2.598485] (wp_map_tools) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/wp_map_tools__rosidl_generator_c.dir/rosidl_generator_c/wp_map_tools/srv/detail/get_waypoint_by_name__functions.c.o\x1b[0m\n'}
+[2.598555] (wp_map_tools) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/wp_map_tools__rosidl_generator_c.dir/rosidl_generator_c/wp_map_tools/srv/detail/save_waypoints__functions.c.o\x1b[0m\n'}
+[2.605270] (-) TimerEvent: {}
+[2.656681] (wp_map_tools) StdoutLine: {'line': b'[ 13%] \x1b[32m\x1b[1mLinking C shared library libwp_map_tools__rosidl_generator_c.so\x1b[0m\n'}
+[2.691732] (wp_map_tools) StdoutLine: {'line': b'[ 13%] Built target wp_map_tools__rosidl_generator_c\n'}
+[2.698748] (wp_map_tools) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.701064] (wp_map_tools) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.701252] (wp_map_tools) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.705357] (-) TimerEvent: {}
+[2.734334] (wp_map_tools) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/wp_map_tools__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wp_map_tools/srv/get_waypoint_by_name__type_support.cpp.o\x1b[0m\n'}
+[2.735624] (wp_map_tools) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/wp_map_tools__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wp_map_tools/srv/save_waypoints__type_support.cpp.o\x1b[0m\n'}
+[2.735870] (wp_map_tools) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/wp_map_tools__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wp_map_tools/msg/waypoint__type_support.cpp.o\x1b[0m\n'}
+[2.807692] (-) TimerEvent: {}
+[2.859266] (wp_map_tools) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/wp_map_tools__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wp_map_tools/msg/detail/dds_fastrtps/waypoint__type_support.cpp.o\x1b[0m\n'}
+[2.861343] (wp_map_tools) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/wp_map_tools__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wp_map_tools/srv/detail/dds_fastrtps/get_waypoint_by_name__type_support.cpp.o\x1b[0m\n'}
+[2.864773] (wp_map_tools) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/wp_map_tools__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wp_map_tools/srv/detail/dds_fastrtps/save_waypoints__type_support.cpp.o\x1b[0m\n'}
+[2.907821] (-) TimerEvent: {}
+[2.908142] (wp_map_tools) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/wp_map_tools__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wp_map_tools/srv/detail/get_waypoint_by_name__type_support.cpp.o\x1b[0m\n'}
+[2.909307] (wp_map_tools) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/wp_map_tools__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wp_map_tools/srv/detail/save_waypoints__type_support.cpp.o\x1b[0m\n'}
+[2.909696] (wp_map_tools) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/wp_map_tools__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wp_map_tools/msg/detail/waypoint__type_support.cpp.o\x1b[0m\n'}
+[2.939746] (wp_map_tools) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/wp_map_tools__rosidl_typesupport_c.dir/rosidl_typesupport_c/wp_map_tools/srv/get_waypoint_by_name__type_support.cpp.o\x1b[0m\n'}
+[2.940074] (wp_map_tools) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/wp_map_tools__rosidl_typesupport_c.dir/rosidl_typesupport_c/wp_map_tools/msg/waypoint__type_support.cpp.o\x1b[0m\n'}
+[2.942597] (wp_map_tools) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/wp_map_tools__rosidl_typesupport_c.dir/rosidl_typesupport_c/wp_map_tools/srv/save_waypoints__type_support.cpp.o\x1b[0m\n'}
+[2.973875] (wp_map_tools) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libwp_map_tools__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.007907] (-) TimerEvent: {}
+[3.015277] (wp_map_tools) StdoutLine: {'line': b'[ 37%] Built target wp_map_tools__rosidl_typesupport_c\n'}
+[3.015994] (wp_map_tools) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libwp_map_tools__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.058691] (wp_map_tools) StdoutLine: {'line': b'[ 38%] Built target wp_map_tools__rosidl_typesupport_cpp\n'}
+[3.060866] (wp_map_tools) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/wp_map_tools__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wp_map_tools/srv/detail/get_waypoint_by_name__type_support.c.o\x1b[0m\n'}
+[3.062726] (wp_map_tools) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/wp_map_tools__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wp_map_tools/srv/detail/save_waypoints__type_support.c.o\x1b[0m\n'}
+[3.062876] (wp_map_tools) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/wp_map_tools__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wp_map_tools/msg/detail/waypoint__type_support.c.o\x1b[0m\n'}
+[3.078389] (wp_map_tools) StdoutLine: {'line': b'[ 44%] \x1b[34m\x1b[1mAutomatic MOC for target wp_map_plugins\x1b[0m\n'}
+[3.084061] (wp_map_tools) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mAutomatic MOC for target wp_navi_server\x1b[0m\n'}
+[3.085015] (wp_map_tools) StdoutLine: {'line': b'[ 47%] \x1b[34m\x1b[1mAutomatic MOC for target demo_navi_waypoint\x1b[0m\n'}
+[3.092322] (wp_map_tools) StdoutLine: {'line': b'[ 49%] \x1b[34m\x1b[1mAutomatic MOC for target wp_saver\x1b[0m\n'}
+[3.096806] (wp_map_tools) StdoutLine: {'line': b'[ 50%] \x1b[34m\x1b[1mAutomatic MOC for target wp_edit_node\x1b[0m\n'}
+[3.107009] (wp_map_tools) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking C shared library libwp_map_tools__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.108144] (-) TimerEvent: {}
+[3.122050] (wp_map_tools) StdoutLine: {'line': b'[ 52%] Built target demo_navi_waypoint_autogen\n'}
+[3.130022] (wp_map_tools) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/wp_map_tools__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wp_map_tools/srv/detail/get_waypoint_by_name__type_support_c.cpp.o\x1b[0m\n'}
+[3.130347] (wp_map_tools) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/wp_map_tools__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wp_map_tools/msg/detail/waypoint__type_support_c.cpp.o\x1b[0m\n'}
+[3.132744] (wp_map_tools) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/wp_map_tools__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wp_map_tools/srv/detail/save_waypoints__type_support_c.cpp.o\x1b[0m\n'}
+[3.135941] (wp_map_tools) StdoutLine: {'line': b'[ 56%] Built target wp_navi_server_autogen\n'}
+[3.136164] (wp_map_tools) StdoutLine: {'line': b'[ 56%] Built target wp_saver_autogen\n'}
+[3.136228] (wp_map_tools) StdoutLine: {'line': b'[ 56%] Built target wp_edit_node_autogen\n'}
+[3.139443] (wp_map_tools) StdoutLine: {'line': b'[ 56%] Built target wp_map_tools__rosidl_typesupport_introspection_c\n'}
+[3.159567] (wp_map_tools) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/demo_navi_waypoint.dir/demo_navi_waypoint_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[3.159805] (wp_map_tools) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/demo_navi_waypoint.dir/src/demo_navi_waypoint.cpp.o\x1b[0m\n'}
+[3.159869] (wp_map_tools) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/wp_saver.dir/wp_saver_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[3.162960] (wp_map_tools) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/wp_saver.dir/src/wp_saver.cpp.o\x1b[0m\n'}
+[3.164704] (wp_map_tools) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/wp_navi_server.dir/wp_navi_server_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[3.170526] (wp_map_tools) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/wp_navi_server.dir/src/wp_navi_server.cpp.o\x1b[0m\n'}
+[3.178678] (wp_map_tools) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/wp_edit_node.dir/wp_edit_node_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[3.192731] (wp_map_tools) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/wp_edit_node.dir/src/wp_edit_node.cpp.o\x1b[0m\n'}
+[3.208249] (-) TimerEvent: {}
+[3.309668] (-) TimerEvent: {}
+[3.317630] (wp_map_tools) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libwp_map_tools__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.331773] (wp_map_tools) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libwp_map_tools__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.389447] (wp_map_tools) StdoutLine: {'line': b'[ 71%] Built target wp_map_tools__rosidl_typesupport_introspection_cpp\n'}
+[3.409798] (-) TimerEvent: {}
+[3.413538] (wp_map_tools) StdoutLine: {'line': b'[ 71%] Built target wp_map_tools__rosidl_typesupport_fastrtps_cpp\n'}
+[3.451796] (wp_map_tools) StdoutLine: {'line': b'[ 71%] Built target wp_map_plugins_autogen\n'}
+[3.458565] (wp_map_tools) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libwp_map_tools__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.464091] (wp_map_tools) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/wp_map_plugins.dir/src/add_waypoint_tool.cpp.o\x1b[0m\n'}
+[3.464298] (wp_map_tools) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/wp_map_plugins.dir/wp_map_plugins_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[3.509538] (wp_map_tools) StdoutLine: {'line': b'[ 76%] Built target wp_map_tools__rosidl_typesupport_fastrtps_c\n'}
+[3.509871] (-) TimerEvent: {}
+[3.524766] (wp_map_tools) StdoutLine: {'line': b'[ 76%] Built target wp_map_tools\n'}
+[3.541482] (wp_map_tools) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.609996] (-) TimerEvent: {}
+[3.674246] (wp_map_tools) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/starfire/ros2_ws/src/wp_map_tools/include/wp_map_tools/add_waypoint_tool.hpp:17\x1b[m\x1b[K,\n'}
+[3.674488] (wp_map_tools) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/starfire/ros2_ws/src/wp_map_tools/src/add_waypoint_tool.cpp:36\x1b[m\x1b[K:\n'}
+[3.674568] (wp_map_tools) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.674657] (wp_map_tools) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[3.674735] (wp_map_tools) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.688723] (wp_map_tools) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/starfire/ros2_ws/build/wp_map_tools/wp_map_plugins_autogen/FXUVMPFNXR/../../../../src/wp_map_tools/include/wp_map_tools/add_waypoint_tool.hpp:17\x1b[m\x1b[K,\n'}
+[3.688900] (wp_map_tools) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/starfire/ros2_ws/build/wp_map_tools/wp_map_plugins_autogen/FXUVMPFNXR/moc_add_waypoint_tool.cpp:10\x1b[m\x1b[K,\n'}
+[3.688980] (wp_map_tools) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/starfire/ros2_ws/build/wp_map_tools/wp_map_plugins_autogen/mocs_compilation.cpp:2\x1b[m\x1b[K:\n'}
+[3.689049] (wp_map_tools) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.689121] (wp_map_tools) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[3.689188] (wp_map_tools) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.710103] (-) TimerEvent: {}
+[3.810419] (-) TimerEvent: {}
+[3.910712] (-) TimerEvent: {}
+[3.931338] (wp_map_tools) StdoutLine: {'line': b'[ 77%] Built target wp_map_tools__py\n'}
+[3.948725] (wp_map_tools) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/wp_map_tools__rosidl_generator_py.dir/rosidl_generator_py/wp_map_tools/srv/_save_waypoints_s.c.o\x1b[0m\n'}
+[3.951522] (wp_map_tools) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/wp_map_tools__rosidl_generator_py.dir/rosidl_generator_py/wp_map_tools/srv/_get_waypoint_by_name_s.c.o\x1b[0m\n'}
+[3.951777] (wp_map_tools) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/wp_map_tools__rosidl_generator_py.dir/rosidl_generator_py/wp_map_tools/msg/_waypoint_s.c.o\x1b[0m\n'}
+[4.010825] (-) TimerEvent: {}
+[4.061232] (wp_map_tools) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/wp_map_tools/libwp_map_tools__rosidl_generator_py.so\x1b[0m\n'}
+[4.101568] (wp_map_tools) StdoutLine: {'line': b'[ 83%] Built target wp_map_tools__rosidl_generator_py\n'}
+[4.110984] (-) TimerEvent: {}
+[4.117361] (wp_map_tools) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/wp_map_tools__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/wp_map_tools/_wp_map_tools_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.117542] (wp_map_tools) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/wp_map_tools__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/wp_map_tools/_wp_map_tools_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.119050] (wp_map_tools) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/wp_map_tools__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/wp_map_tools/_wp_map_tools_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.182411] (wp_map_tools) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/wp_map_tools/wp_map_tools_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.184328] (wp_map_tools) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/wp_map_tools/wp_map_tools_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.207305] (wp_map_tools) StdoutLine: {'line': b'[ 91%] Built target wp_map_tools__rosidl_typesupport_introspection_c__pyext\n'}
+[4.210021] (wp_map_tools) StdoutLine: {'line': b'[ 91%] Built target wp_map_tools__rosidl_typesupport_c__pyext\n'}
+[4.211059] (-) TimerEvent: {}
+[4.219702] (wp_map_tools) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/wp_map_tools/wp_map_tools_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.249949] (wp_map_tools) StdoutLine: {'line': b'[ 92%] Built target wp_map_tools__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.311210] (-) TimerEvent: {}
+[4.411651] (-) TimerEvent: {}
+[4.511964] (-) TimerEvent: {}
+[4.612295] (-) TimerEvent: {}
+[4.712645] (-) TimerEvent: {}
+[4.812938] (-) TimerEvent: {}
+[4.913213] (-) TimerEvent: {}
+[5.013571] (-) TimerEvent: {}
+[5.061260] (wp_map_tools) StderrLine: {'line': b'\x1b[01m\x1b[K/home/starfire/ros2_ws/src/wp_map_tools/src/wp_edit_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid processWaypointFeedback(const ConstSharedPtr&, rclcpp::Logger)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.061451] (wp_map_tools) StderrLine: {'line': b'\x1b[01m\x1b[K/home/starfire/ros2_ws/src/wp_map_tools/src/wp_edit_node.cpp:189:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klogger\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.061526] (wp_map_tools) StderrLine: {'line': b'  189 |   \x1b[01;35m\x1b[Krclcpp::Logger logger\x1b[m\x1b[K)\n'}
+[5.061588] (wp_map_tools) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.067905] (wp_map_tools) StderrLine: {'line': b'\x1b[01m\x1b[K/home/starfire/ros2_ws/src/wp_map_tools/src/wp_edit_node.cpp:\x1b[m\x1b[K At global scope:\n'}
+[5.068088] (wp_map_tools) StderrLine: {'line': b'\x1b[01m\x1b[K/home/starfire/ros2_ws/src/wp_map_tools/src/wp_edit_node.cpp:311:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kwp_map_tools::msg::Waypoint_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.068162] (wp_map_tools) StderrLine: {'line': b'  311 | void AddWayPointCallback(const wp_map_tools::msg::Waypoint::ConstPtr& wp\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[5.068222] (wp_map_tools) StderrLine: {'line': b'      |                                                                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.068281] (wp_map_tools) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/starfire/ros2_ws/build/wp_map_tools/rosidl_generator_cpp/wp_map_tools/msg/waypoint.hpp:7\x1b[m\x1b[K,\n'}
+[5.068341] (wp_map_tools) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/starfire/ros2_ws/src/wp_map_tools/src/wp_edit_node.cpp:13\x1b[m\x1b[K:\n'}
+[5.068399] (wp_map_tools) StderrLine: {'line': b'\x1b[01m\x1b[K/home/starfire/ros2_ws/build/wp_map_tools/rosidl_generator_cpp/wp_map_tools/msg/detail/waypoint__struct.hpp:132:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.068458] (wp_map_tools) StderrLine: {'line': b'  132 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[5.068516] (wp_map_tools) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.071348] (wp_map_tools) StderrLine: {'line': b'\x1b[01m\x1b[K/home/starfire/ros2_ws/src/wp_map_tools/src/wp_edit_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.071524] (wp_map_tools) StderrLine: {'line': b'\x1b[01m\x1b[K/home/starfire/ros2_ws/src/wp_map_tools/src/wp_edit_node.cpp:349:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcapture of variable \xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99 with non-automatic storage duration\n'}
+[5.071595] (wp_map_tools) StderrLine: {'line': b'  349 |     menu_waypoint.insert("Delete", [\x1b[01;35m\x1b[Knode\x1b[m\x1b[K](const visualization_msgs::msg::InteractiveMarkerFeedback::ConstSharedPtr& feedback) {\n'}
+[5.071668] (wp_map_tools) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.071741] (wp_map_tools) StderrLine: {'line': b'\x1b[01m\x1b[K/home/starfire/ros2_ws/src/wp_map_tools/src/wp_edit_node.cpp:17:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Node> node\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[5.071799] (wp_map_tools) StderrLine: {'line': b'   17 | static std::shared_ptr<rclcpp::Node> \x1b[01;36m\x1b[Knode\x1b[m\x1b[K;\n'}
+[5.071860] (wp_map_tools) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.113708] (-) TimerEvent: {}
+[5.214060] (-) TimerEvent: {}
+[5.314377] (-) TimerEvent: {}
+[5.414684] (-) TimerEvent: {}
+[5.515071] (-) TimerEvent: {}
+[5.615527] (-) TimerEvent: {}
+[5.715852] (-) TimerEvent: {}
+[5.816114] (-) TimerEvent: {}
+[5.894662] (wp_map_tools) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable wp_saver\x1b[0m\n'}
+[5.916272] (-) TimerEvent: {}
+[6.016578] (-) TimerEvent: {}
+[6.020754] (wp_map_tools) StdoutLine: {'line': b'[ 94%] Built target wp_saver\n'}
+[6.116715] (-) TimerEvent: {}
+[6.216980] (-) TimerEvent: {}
+[6.317278] (-) TimerEvent: {}
+[6.417568] (-) TimerEvent: {}
+[6.517838] (-) TimerEvent: {}
+[6.618333] (-) TimerEvent: {}
+[6.718753] (-) TimerEvent: {}
+[6.819059] (-) TimerEvent: {}
+[6.859024] (wp_map_tools) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX shared library libwp_map_plugins.so\x1b[0m\n'}
+[6.919190] (-) TimerEvent: {}
+[7.019496] (-) TimerEvent: {}
+[7.119883] (-) TimerEvent: {}
+[7.220213] (-) TimerEvent: {}
+[7.227414] (wp_map_tools) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable demo_navi_waypoint\x1b[0m\n'}
+[7.320494] (-) TimerEvent: {}
+[7.377072] (wp_map_tools) StdoutLine: {'line': b'[ 97%] Built target demo_navi_waypoint\n'}
+[7.420677] (-) TimerEvent: {}
+[7.521046] (-) TimerEvent: {}
+[7.621391] (-) TimerEvent: {}
+[7.721783] (-) TimerEvent: {}
+[7.822097] (-) TimerEvent: {}
+[7.922421] (-) TimerEvent: {}
+[8.013859] (wp_map_tools) StdoutLine: {'line': b'[ 97%] Built target wp_map_plugins\n'}
+[8.022610] (-) TimerEvent: {}
+[8.122922] (-) TimerEvent: {}
+[8.223242] (-) TimerEvent: {}
+[8.323546] (-) TimerEvent: {}
+[8.423809] (-) TimerEvent: {}
+[8.524114] (-) TimerEvent: {}
+[8.624382] (-) TimerEvent: {}
+[8.724678] (-) TimerEvent: {}
+[8.824944] (-) TimerEvent: {}
+[8.925274] (-) TimerEvent: {}
+[9.025692] (-) TimerEvent: {}
+[9.125950] (-) TimerEvent: {}
+[9.226230] (-) TimerEvent: {}
+[9.326608] (-) TimerEvent: {}
+[9.426916] (-) TimerEvent: {}
+[9.527212] (-) TimerEvent: {}
+[9.627472] (-) TimerEvent: {}
+[9.666482] (wp_map_tools) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable wp_edit_node\x1b[0m\n'}
+[9.727696] (-) TimerEvent: {}
+[9.732739] (wp_map_tools) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable wp_navi_server\x1b[0m\n'}
+[9.827831] (-) TimerEvent: {}
+[9.928158] (-) TimerEvent: {}
+[9.969522] (wp_map_tools) StdoutLine: {'line': b'[100%] Built target wp_edit_node\n'}
+[10.028308] (-) TimerEvent: {}
+[10.035835] (wp_map_tools) StdoutLine: {'line': b'[100%] Built target wp_navi_server\n'}
+[10.044602] (wp_map_tools) CommandEnded: {'returncode': 0}
+[10.045348] (wp_map_tools) JobProgress: {'identifier': 'wp_map_tools', 'progress': 'install'}
+[10.051267] (wp_map_tools) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/starfire/ros2_ws/build/wp_map_tools'], 'cwd': '/home/starfire/ros2_ws/build/wp_map_tools', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'starfire'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/starfire'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.107.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1251'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1424'), ('BUNDLED_DEBUGPY_PATH', '/home/starfire/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9164'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'starfire'), ('JOURNAL_STREAM', '8:9199'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'starfire'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/starfire/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/starfire/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/starfire/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/starfire-Legion-Y7000P-IRH8:@/tmp/.ICE-unix/1392,unix/starfire-Legion-Y7000P-IRH8:/tmp/.ICE-unix/1392'), ('INVOCATION_ID', 'ff68511c20534cbfaaad2899cb9a11e2'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/starfire/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e14db974bbd3aa27.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/starfire/.config/Code/User/workspaceStorage/af1ab01ee47bd6fabcdd2fb9819024aa/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QFBDI3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a290e9dcf1.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/starfire/ros2_ws/build/wp_map_tools'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.056912] (wp_map_tools) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.057064] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/ament_index/resource_index/rosidl_interfaces/wp_map_tools\n'}
+[10.057193] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools\n'}
+[10.057262] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv\n'}
+[10.057327] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/save_waypoints.h\n'}
+[10.057387] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/get_waypoint_by_name.h\n'}
+[10.057446] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail\n'}
+[10.057506] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__functions.c\n'}
+[10.057565] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__struct.h\n'}
+[10.057672] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__type_support.h\n'}
+[10.057744] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__functions.h\n'}
+[10.057806] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__struct.h\n'}
+[10.057863] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__functions.c\n'}
+[10.057921] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__functions.h\n'}
+[10.057982] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__type_support.h\n'}
+[10.058046] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg\n'}
+[10.058108] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.058171] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/waypoint.h\n'}
+[10.058234] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail\n'}
+[10.058297] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__struct.h\n'}
+[10.058384] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__functions.h\n'}
+[10.058449] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__functions.c\n'}
+[10.058513] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__type_support.h\n'}
+[10.058575] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/environment/library_path.sh\n'}
+[10.058642] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/environment/library_path.dsv\n'}
+[10.058856] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_generator_c.so\n'}
+[10.058929] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_generator_c.so" to ""\n'}
+[10.058992] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools\n'}
+[10.059055] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv\n'}
+[10.059144] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail\n'}
+[10.059207] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__rosidl_typesupport_fastrtps_c.h\n'}
+[10.059270] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__rosidl_typesupport_fastrtps_c.h\n'}
+[10.059332] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg\n'}
+[10.059394] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail\n'}
+[10.059456] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__rosidl_typesupport_fastrtps_c.h\n'}
+[10.059519] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.059624] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_fastrtps_c.so\n'}
+[10.059747] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.059816] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools\n'}
+[10.059876] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv\n'}
+[10.059934] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/save_waypoints.hpp\n'}
+[10.060020] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail\n'}
+[10.060076] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__traits.hpp\n'}
+[10.060134] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__traits.hpp\n'}
+[10.060208] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__type_support.hpp\n'}
+[10.060265] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__struct.hpp\n'}
+[10.060323] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__builder.hpp\n'}
+[10.060382] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__type_support.hpp\n'}
+[10.060440] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__struct.hpp\n'}
+[10.060498] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__builder.hpp\n'}
+[10.060556] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/get_waypoint_by_name.hpp\n'}
+[10.060614] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg\n'}
+[10.060746] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/waypoint.hpp\n'}
+[10.060819] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[10.060882] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail\n'}
+[10.060940] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__struct.hpp\n'}
+[10.060999] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__traits.hpp\n'}
+[10.061057] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__builder.hpp\n'}
+[10.061116] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__type_support.hpp\n'}
+[10.061175] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools\n'}
+[10.061234] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv\n'}
+[10.061294] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail\n'}
+[10.061353] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.061447] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/dds_fastrtps\n'}
+[10.061506] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.061565] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg\n'}
+[10.061623] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail\n'}
+[10.061694] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/dds_fastrtps\n'}
+[10.061750] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.061809] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.061868] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.061924] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[10.061986] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools\n'}
+[10.062042] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv\n'}
+[10.062097] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail\n'}
+[10.062153] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__rosidl_typesupport_introspection_c.h\n'}
+[10.062208] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__rosidl_typesupport_introspection_c.h\n'}
+[10.062267] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__type_support.c\n'}
+[10.062323] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__type_support.c\n'}
+[10.062377] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg\n'}
+[10.062433] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.062491] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail\n'}
+[10.062552] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__rosidl_typesupport_introspection_c.h\n'}
+[10.062610] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__type_support.c\n'}
+[10.062675] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_introspection_c.so\n'}
+[10.062735] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.062789] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_c.so\n'}
+[10.062844] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_c.so" to ""\n'}
+[10.062900] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools\n'}
+[10.062960] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv\n'}
+[10.063020] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail\n'}
+[10.063076] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.063131] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.063188] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/get_waypoint_by_name__type_support.cpp\n'}
+[10.063246] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/srv/detail/save_waypoints__type_support.cpp\n'}
+[10.063306] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg\n'}
+[10.063364] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail\n'}
+[10.063421] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.063478] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include/wp_map_tools/wp_map_tools/msg/detail/waypoint__type_support.cpp\n'}
+[10.063536] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_introspection_cpp.so\n'}
+[10.063593] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[10.063659] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_cpp.so\n'}
+[10.063726] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_typesupport_cpp.so" to ""\n'}
+[10.063895] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/environment/pythonpath.sh\n'}
+[10.063937] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/environment/pythonpath.dsv\n'}
+[10.063962] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools-1.0.0-py3.10.egg-info\n'}
+[10.063987] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[10.064009] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[10.064031] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[10.064052] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[10.064074] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools\n'}
+[10.064096] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/srv\n'}
+[10.064117] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/srv/_save_waypoints_s.c\n'}
+[10.064142] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/srv/_save_waypoints.py\n'}
+[10.064162] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/srv/_get_waypoint_by_name_s.c\n'}
+[10.064183] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/srv/_get_waypoint_by_name.py\n'}
+[10.064204] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/srv/__init__.py\n'}
+[10.064225] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/wp_map_tools_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.064247] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/wp_map_tools_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.064268] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/_wp_map_tools_s.ep.rosidl_typesupport_c.c\n'}
+[10.064289] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/_wp_map_tools_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.064309] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/wp_map_tools_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.064330] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/__init__.py\n'}
+[10.064350] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/_wp_map_tools_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.064370] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/libwp_map_tools__rosidl_generator_py.so\n'}
+[10.064391] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/msg\n'}
+[10.064411] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/msg/_waypoint_s.c\n'}
+[10.064432] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/msg/_waypoint.py\n'}
+[10.064452] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/msg/__init__.py\n'}
+[10.082171] (wp_map_tools) StdoutLine: {'line': b"Listing '/home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools'...\n"}
+[10.082328] (wp_map_tools) StdoutLine: {'line': b"Compiling '/home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/__init__.py'...\n"}
+[10.082392] (wp_map_tools) StdoutLine: {'line': b"Listing '/home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/msg'...\n"}
+[10.082450] (wp_map_tools) StdoutLine: {'line': b"Compiling '/home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/msg/__init__.py'...\n"}
+[10.082515] (wp_map_tools) StdoutLine: {'line': b"Compiling '/home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/msg/_waypoint.py'...\n"}
+[10.082574] (wp_map_tools) StdoutLine: {'line': b"Listing '/home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/srv'...\n"}
+[10.082629] (wp_map_tools) StdoutLine: {'line': b"Compiling '/home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/srv/__init__.py'...\n"}
+[10.082705] (wp_map_tools) StdoutLine: {'line': b"Compiling '/home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/srv/_get_waypoint_by_name.py'...\n"}
+[10.082768] (wp_map_tools) StdoutLine: {'line': b"Compiling '/home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/srv/_save_waypoints.py'...\n"}
+[10.085001] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/wp_map_tools_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.085246] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/wp_map_tools_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[10.085359] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/wp_map_tools_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.085463] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/wp_map_tools_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[10.085539] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/wp_map_tools_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.085600] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/local/lib/python3.10/dist-packages/wp_map_tools/wp_map_tools_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[10.085785] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_generator_py.so\n'}
+[10.085901] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_tools__rosidl_generator_py.so" to ""\n'}
+[10.085967] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/msg/Waypoint.idl\n'}
+[10.086029] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/SaveWaypoints.idl\n'}
+[10.086089] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/GetWaypointByName.idl\n'}
+[10.086149] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/msg/Waypoint.msg\n'}
+[10.086208] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/SaveWaypoints.srv\n'}
+[10.086268] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/SaveWaypoints_Request.msg\n'}
+[10.086327] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/SaveWaypoints_Response.msg\n'}
+[10.086404] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/GetWaypointByName.srv\n'}
+[10.086494] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/GetWaypointByName_Request.msg\n'}
+[10.086552] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/GetWaypointByName_Response.msg\n'}
+[10.086615] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/plugins_description.xml\n'}
+[10.086682] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/plugins_description.xml\n'}
+[10.086743] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_plugins.so\n'}
+[10.086889] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/lib/libwp_map_plugins.so" to ""\n'}
+[10.086975] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include/\n'}
+[10.087035] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/include//wp_map_tools\n'}
+[10.087093] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/include//wp_map_tools/add_waypoint_tool.hpp\n'}
+[10.087169] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/launch\n'}
+[10.087267] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/launch/add_waypoint_sim.launch.py\n'}
+[10.087328] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/launch/navi_waypoint_home.launch.py\n'}
+[10.087387] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/launch/marker_navigation.launch.py\n'}
+[10.087455] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/launch/navi_waypoint_sim.launch.py\n'}
+[10.087517] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/launch/add_waypoint_home.launch.py\n'}
+[10.087579] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/meshes\n'}
+[10.087672] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/meshes/charger.dae\n'}
+[10.087803] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/meshes/waypoint.dae\n'}
+[10.087861] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/rviz\n'}
+[10.087916] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/rviz/edit.rviz\n'}
+[10.087972] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/rviz/navi.rviz\n'}
+[10.088027] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/msg\n'}
+[10.088083] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/msg/Waypoint.msg\n'}
+[10.088138] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv\n'}
+[10.088193] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/GetWaypointByIndex.srv\n'}
+[10.088248] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/SaveWaypoints.srv\n'}
+[10.088304] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/GetChargerByName.srv\n'}
+[10.088358] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/GetNumOfWaypoints.srv\n'}
+[10.088413] (wp_map_tools) StdoutLine: {'line': b'-- Up-to-date: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/GetWaypointByName.srv\n'}
+[10.088473] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/srv/AddNewWaypoint.srv\n'}
+[10.088528] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/icons\n'}
+[10.088584] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/icons/classes\n'}
+[10.088644] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/icons/classes/AddCharger.png\n'}
+[10.088707] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/icons/classes/AddWaypointTool.png\n'}
+[10.088766] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/lib/wp_map_tools/wp_edit_node\n'}
+[10.089569] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/lib/wp_map_tools/wp_edit_node" to ""\n'}
+[10.089646] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/lib/wp_map_tools/wp_saver\n'}
+[10.090075] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/lib/wp_map_tools/wp_saver" to ""\n'}
+[10.090138] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/lib/wp_map_tools/wp_navi_server\n'}
+[10.091917] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/lib/wp_map_tools/wp_navi_server" to ""\n'}
+[10.091955] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/lib/wp_map_tools/demo_navi_waypoint\n'}
+[10.092508] (wp_map_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/starfire/ros2_ws/install/wp_map_tools/lib/wp_map_tools/demo_navi_waypoint" to ""\n'}
+[10.092535] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/ament_index/resource_index/package_run_dependencies/wp_map_tools\n'}
+[10.092560] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/ament_index/resource_index/parent_prefix_path/wp_map_tools\n'}
+[10.092681] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/environment/ament_prefix_path.sh\n'}
+[10.092741] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/environment/ament_prefix_path.dsv\n'}
+[10.092769] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/environment/path.sh\n'}
+[10.092797] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/environment/path.dsv\n'}
+[10.092905] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/local_setup.bash\n'}
+[10.092932] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/local_setup.sh\n'}
+[10.093010] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/local_setup.zsh\n'}
+[10.093035] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/local_setup.dsv\n'}
+[10.093056] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/package.dsv\n'}
+[10.093116] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/ament_index/resource_index/packages/wp_map_tools\n'}
+[10.093145] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/ament_index/resource_index/rviz_common__pluginlib__plugin/wp_map_tools\n'}
+[10.093219] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/export_wp_map_tools__rosidl_generator_cExport.cmake\n'}
+[10.093246] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/export_wp_map_tools__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.093271] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/export_wp_map_tools__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[10.093314] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/export_wp_map_tools__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[10.093338] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/export_wp_map_tools__rosidl_generator_cppExport.cmake\n'}
+[10.093381] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/export_wp_map_tools__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[10.093405] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/export_wp_map_tools__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[10.093447] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_tools__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.093471] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_tools__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.093511] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_tools__rosidl_typesupport_cExport.cmake\n'}
+[10.093554] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_tools__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.093580] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_tools__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.093626] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_tools__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.093657] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_tools__rosidl_typesupport_cppExport.cmake\n'}
+[10.093697] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_tools__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.093744] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/export_wp_map_tools__rosidl_generator_pyExport.cmake\n'}
+[10.093767] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/export_wp_map_tools__rosidl_generator_pyExport-noconfig.cmake\n'}
+[10.093799] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_pluginsExport.cmake\n'}
+[10.093838] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_pluginsExport-noconfig.cmake\n'}
+[10.093877] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.093916] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/rosidl_cmake-extras.cmake\n'}
+[10.093954] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.093993] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.094030] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.094067] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.094107] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.094150] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_toolsConfig.cmake\n'}
+[10.094206] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/cmake/wp_map_toolsConfig-version.cmake\n'}
+[10.094305] (wp_map_tools) StdoutLine: {'line': b'-- Installing: /home/starfire/ros2_ws/install/wp_map_tools/share/wp_map_tools/package.xml\n'}
+[10.095583] (wp_map_tools) CommandEnded: {'returncode': 0}
+[10.105619] (wp_map_tools) JobEnded: {'identifier': 'wp_map_tools', 'rc': 0}
+[10.106100] (-) EventReactorShutdown: {}

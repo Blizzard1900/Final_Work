@@ -1,0 +1,6 @@
+Invoking command in '/home/starfire/ros2_ws/build/home_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/starfire/ros2_ws/src/home_pkg -DCMAKE_INSTALL_PREFIX=/home/starfire/ros2_ws/install/home_pkg
+Invoked command in '/home/starfire/ros2_ws/build/home_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/starfire/ros2_ws/src/home_pkg -DCMAKE_INSTALL_PREFIX=/home/starfire/ros2_ws/install/home_pkg
+Invoking command in '/home/starfire/ros2_ws/build/home_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/starfire/ros2_ws/build/home_pkg -- -j16 -l16
+Invoked command in '/home/starfire/ros2_ws/build/home_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/starfire/ros2_ws/build/home_pkg -- -j16 -l16
+Invoking command in '/home/starfire/ros2_ws/build/home_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/starfire/ros2_ws/build/home_pkg
+Invoked command in '/home/starfire/ros2_ws/build/home_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/starfire/ros2_ws/build/home_pkg

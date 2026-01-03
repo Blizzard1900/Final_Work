@@ -1,0 +1,8 @@
+{
+  "package_name": "wp_map_tools",
+  "non_idl_tuples": [
+    "/home/starfire/ros2_ws/src/wp_map_tools:msg/Waypoint.msg",
+    "/home/starfire/ros2_ws/src/wp_map_tools:srv/SaveWaypoints.srv",
+    "/home/starfire/ros2_ws/src/wp_map_tools:srv/GetWaypointByName.srv"
+  ]
+}

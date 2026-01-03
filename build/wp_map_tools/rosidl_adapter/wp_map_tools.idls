@@ -1,0 +1,3 @@
+/home/starfire/ros2_ws/build/wp_map_tools/rosidl_adapter/wp_map_tools:msg/Waypoint.idl
+/home/starfire/ros2_ws/build/wp_map_tools/rosidl_adapter/wp_map_tools:srv/SaveWaypoints.idl
+/home/starfire/ros2_ws/build/wp_map_tools/rosidl_adapter/wp_map_tools:srv/GetWaypointByName.idl
