@@ -1,5 +1,5 @@
 
-两机需要同时设置domain ID :
+两机需要同时设置domain ID : (ROS_DOMAIN_ID should 0 <= ROS_DOMAIN_ID <= 101)
 
 '''
 export ROS_DOMAIN_ID=5
